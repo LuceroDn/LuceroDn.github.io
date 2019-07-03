@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar";
-import Box from "./Box";
+//import Box from "./Box";
 
 
 class Presentation extends Component {
@@ -9,7 +9,7 @@ class Presentation extends Component {
     return (
         <div className="background1">
             <NavBar />
-            <Box />
+  
         </div>
         
     );

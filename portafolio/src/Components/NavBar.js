@@ -1,7 +1,13 @@
 import React, { Component } from "react";
+import M from "materialize-css";
 
 class NavBar extends Component {
-   
+componentDidMount() {
+        // Auto initialize all the things!
+        M.AutoInit();
+    }
+
+
   render() {
     return (
      <header>
