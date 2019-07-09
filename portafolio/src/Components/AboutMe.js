@@ -5,12 +5,16 @@ class AboutMe extends Component {
     
   render() {
     return (
-        <div className="backgroundAbout">
-            <div>
+        <div className="container backgroundAbout">
+           <div className="row">
+             <div className="col">
+             <div>
             <h2 className="aboutMe">Acerca de Mi</h2>
             </div>
-            <p className="textAbout">Hola, soy Lucero, soy desarrolladora web y administradora de empresas. Me gusta mucho viajar, leer y escuchar música. &nbs
+            <p className="textAbout">Hola, soy Lucero, soy desarrolladora web y administradora de empresas. Me gusta mucho viajar, leer y escuchar música.
              Aquí podrás encontrar algunos proyectos en los que he trabajado en Laboratoria</p>
+             </div>
+           </div>
         </div>
         
     );
