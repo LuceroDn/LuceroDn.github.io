@@ -10,6 +10,7 @@ class Presentation extends Component {
         <div className="background1">
             <NavBar />
             <Box />
+            
   
         </div>
         

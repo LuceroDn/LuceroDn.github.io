@@ -45,3 +45,15 @@ nav {
   justify-content: center;
   padding: 12%;
 }
+
+.skills {
+  background-color: #d4f1e7;
+  display: flex;
+  justify-content: center;
+}
+
+.imgSkills {
+  width: 76%;
+  margin-top: 20%;
+  padding-left: 20%;
+}

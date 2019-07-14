@@ -11,7 +11,7 @@ componentDidMount() {
   render() {
     return (
      <header>
-        <nav>
+        <nav >
     <div className="nav-wrapper">
       <a href="cvv" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
       <ul className="right hide-on-med-and-down">
