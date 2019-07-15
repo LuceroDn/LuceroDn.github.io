@@ -7,10 +7,14 @@ class Box extends Component {
     return (
    <div className="box">
     <div>
-        <h1 className="name">Lucero Dn</h1>
+        <h1 className="name elegantShadow">Lucero Dn</h1>
     </div>
     <div>
         <p className="FrontE">Front-End Developer</p>
+    </div>
+
+    <div className="buttonCV">
+    <a class="btn-floating btn-large waves-effect waves-light #d4f1e7 teal lighten-3">CV</a>
     </div>
    </div>
 

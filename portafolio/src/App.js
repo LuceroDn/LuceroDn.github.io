@@ -8,7 +8,7 @@ import Projects from "./Components/Projects";
 import Interests from "./Components/Interests";
 import Sentence from "./Components/Sentence";
 import Contact from "./Components/Contact";
-
+import Footer from "./Components/Footer";
 
   
 
@@ -23,6 +23,7 @@ class App extends Component {
       <Interests />
       <Sentence />
       <Contact />
+      <Footer />
     </div>
     )
   }
