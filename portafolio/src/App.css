@@ -108,3 +108,14 @@ nav {
   margin-top: 10%;
   margin-left: 30%;
 }
+
+/* Sentence */
+
+.backgroundSentence {
+  background-color: #d4f1e7;
+}
+
+.doWhatU {
+  font-size: 25px;
+  padding: 10%;
+}
