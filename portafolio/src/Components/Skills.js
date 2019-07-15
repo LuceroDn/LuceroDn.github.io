@@ -8,7 +8,7 @@ class Skills extends Component {
         <div className="row skills">
           <div className="">
 
-            <h2 className="titlePages">Habilidades</h2>
+            <h2 className="titlePages">HABILIDADES</h2>
 
 
             <h3 className="">Técnicas</h3>

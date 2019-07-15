@@ -8,7 +8,7 @@ class Projects extends Component {
             <div className="container-fluid backgroundProjects">
                 <div className="row">
                     <div className="col cards">
-                        <h1 className="titlePages">Proyectos</h1>
+                        <h1 className="titlePages">PROYECTOS</h1>
                         
     <div class="card sticky-action">
 

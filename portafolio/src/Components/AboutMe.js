@@ -9,7 +9,7 @@ class AboutMe extends Component {
            <div className="row">
              <div className="col">
              <div>
-            <h2 className="titlePages">Acerca de Mi</h2>
+            <h2 className="titlePages">ACERCA DE MI</h2>
             </div>
             <p className="textAbout">Hola, soy Lucero, soy desarrolladora web y administradora de empresas. Me gusta mucho viajar, leer y escuchar música.
              Aquí podrás encontrar algunos proyectos en los que he trabajado en Laboratoria</p>

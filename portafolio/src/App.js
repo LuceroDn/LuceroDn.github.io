@@ -6,6 +6,7 @@ import AboutMe from "./Components/AboutMe";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Interests from "./Components/Interests";
+import Sentence from "./Components/Sentence";
 
 
   
@@ -19,6 +20,7 @@ class App extends Component {
       <Skills />
       <Projects />
       <Interests />
+      <Sentence />
     </div>
     )
   }
