@@ -57,3 +57,36 @@ nav {
   margin-top: 20%;
   padding-left: 20%;
 }
+
+.backgroundProjects {
+  margin-top: -5%;
+}
+
+.cards {
+  width: 81%;
+  margin-left: 10%;;
+}
+
+.card-image {
+  height: 30vh;
+}
+
+.imgPokemon {
+  margin-top: 9%;
+  padding: 5%;
+}
+
+.imgTicTac {
+  padding: 35%;
+  margin-top: -25%;
+}
+
+.backgTicTac {
+  background-color: #02aaff;
+}
+
+.title {
+  font-weight: bold;
+}
+
+
