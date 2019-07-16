@@ -8,9 +8,6 @@ class TechnicalSkills extends Component {
         <div className="row skills">
           <div className="col">
 
-            <h2 className="titlePages">HABILIDADES</h2>
-
-
             <h3 className="tecnicas center-align">Técnicas</h3>
 
             <div className="col">
