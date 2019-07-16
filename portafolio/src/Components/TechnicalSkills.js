@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import imagen from '../img/code.jpg'
 
-class Skills extends Component {
+class TechnicalSkills extends Component {
   render() {
     return (
       <div className="container-fluid">
@@ -37,10 +37,6 @@ class Skills extends Component {
 
             </div>
 
-            
-            <h3 className="personales center-align">Personales</h3>
-          
-
           </div>
         </div>
       </div>
@@ -48,4 +44,4 @@ class Skills extends Component {
   }
 }
 
-export default Skills;
+export default TechnicalSkills;
