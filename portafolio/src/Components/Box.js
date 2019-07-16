@@ -7,7 +7,7 @@ class Box extends Component {
     return (
    <div className="box">
     <div>
-        <h1 className="name elegantShadow">Lucero Dn</h1>
+        <h1 className="name">LUCERO DN</h1>
     </div>
     <div>
         <p className="FrontE">Front-End Developer</p>

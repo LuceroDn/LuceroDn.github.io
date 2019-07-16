@@ -6,12 +6,12 @@ class Skills extends Component {
     return (
       <div className="container-fluid">
         <div className="row skills">
-          <div className="">
+          <div className="col">
 
             <h2 className="titlePages">HABILIDADES</h2>
 
 
-            <h3 className="">Técnicas</h3>
+            <h3 className="tecnicas center-align">Técnicas</h3>
 
             <div className="col">
 
@@ -36,6 +36,10 @@ class Skills extends Component {
               </div>
 
             </div>
+
+            
+            <h3 className="personales center-align">Personales</h3>
+          
 
           </div>
         </div>
