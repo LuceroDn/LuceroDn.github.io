@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
-import imagen from '../img/code.jpg'
+import html from "../img/html.png";
+import javascript from "../img/js.jpg";
+import css from "../img/css.png";
+import bootstrap from "../img/bootstrap.png";
+import materialize from "../img/materialize2.png";
+import github from "../img/github2.png";
 
 class TechnicalSkills extends Component {
   render() {
@@ -13,23 +18,23 @@ class TechnicalSkills extends Component {
             <div className="col">
 
               <div class="col s6">
-                <img className="imgSkills" src={imagen} alt="imgSkills" />
+                <img className="html" src={html} alt="imgSkills" />
               </div>
               <div class="col s6">
-                <img className="imgSkills" src={imagen} alt="imgSkills" />
+                <img className="css" src={css} alt="imgSkills" />
               </div>
               <div class="col s6">
-                <img className="imgSkills" src={imagen} alt="imgSkills" />
+                <img className="javascript" src={javascript} alt="imgSkills" />
               </div>
 
               <div class="col s6">
-                <img className="imgSkills" src={imagen} alt="imgSkills" />
+                <img className="bootstrap" src={bootstrap} alt="imgSkills" />
               </div>
               <div class="col s6">
-                <img className="imgSkills" src={imagen} alt="imgSkills" />
+                <img className="materialize" src={materialize} alt="imgSkills" />
               </div>
               <div class="col s6">
-                <img className="imgSkills" src={imagen} alt="imgSkills" />
+                <img className="github" src={github} alt="imgSkills" />
               </div>
 
             </div>

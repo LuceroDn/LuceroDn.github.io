@@ -19,6 +19,7 @@ nav {
 .name {
   font-family: 'Merienda One', cursive;
   font-size: 50px;
+  color: #604c24;
   display: flex;
   justify-content: center;
   margin-top: 35%;
@@ -28,6 +29,7 @@ nav {
   font-family: 'Ialiana', serif;
   font-weight: 300;
   font-size: 20px;
+  color: #604c24;
   display: flex;
   justify-content: center;
   margin-top: -5%;
@@ -44,6 +46,7 @@ nav {
 .titlePages {
   font-family: 'Italiana',serif;
   font-size: 25px;
+  color: #604c24;
   font-weight: bold;
   display: flex;
   justify-content: center;
@@ -84,6 +87,8 @@ nav {
   justify-content: center;
 }
 
+/* Technical Skills */
+
 .tecnicas {
   font-family: 'Italiana', serif;
   font-weight: bold;
@@ -91,11 +96,32 @@ nav {
   margin-top: 8%;
 }
 
-.imgSkills {
-  width: 76%;
-  margin-top: 20%;
-  padding-left: 20%;
+.html {
+  width: 75%;
 }
+
+.css {
+  width: 60%;
+}
+
+.javascript {
+  width: 65%;
+}
+
+.bootstrap {
+  width: 70%;
+}
+
+.materialize {
+  width: 70%;
+}
+
+.github {
+  margin-top: -40%;
+  width: 60%;
+}
+
+/* Personal Skills */
 
 .personales {
   font-family: 'Italiana', serif;
@@ -103,6 +129,8 @@ nav {
   font-size: 19px;
   margin-top: 65%;
 }
+
+
 
 
 
