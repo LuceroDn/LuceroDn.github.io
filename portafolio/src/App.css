@@ -56,12 +56,24 @@ nav {
   display: flex;
   justify-content: center;
   padding: 6%;
+  margin-top: 10%;
 }
 
 .textAbout2 {
-  margin-top: -8%;
-  margin-bottom: 20%;
+  margin-top: -5%;
+  margin-bottom: 10%;
   justify-content: center;
+}
+
+.imgTravel {
+  width: 110%;
+  margin-left: 55%;
+  margin-bottom: 20%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 /* Skills */
@@ -76,7 +88,7 @@ nav {
   font-family: 'Italiana', serif;
   font-weight: bold;
   font-size: 19px;
-  margin-top: 15%;
+  margin-top: 8%;
 }
 
 .imgSkills {
