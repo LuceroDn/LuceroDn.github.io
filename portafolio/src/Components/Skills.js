@@ -5,8 +5,8 @@ import PersonalSkills from "./PersonalSkills";
 class Skills extends Component {
     render(){
         return(
-            <div className="container-fluid">
-            <div className="row skills">
+            <div className="container-fluid skills">
+            <div className="row">
               <div className="col">
     
                 <h2 className="titlePages">HABILIDADES</h2>

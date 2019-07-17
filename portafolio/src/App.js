@@ -3,7 +3,7 @@ import "./App.css";
 import 'materialize-css/dist/css/materialize.min.css';
 import Presentation from "./Components/Presentation";
 import AboutMe from "./Components/AboutMe";
-// import Skills from "./Components/Skills";
+import Skills from "./Components/Skills";
 // import Projects from "./Components/Projects";
 // import Interests from "./Components/Interests";
 // import Sentence from "./Components/Sentence";
@@ -18,8 +18,8 @@ class App extends Component {
     <div>
       <Presentation />
       <AboutMe />
-      {/* <Skills />
-      <Projects />
+      <Skills />
+      {/* <Projects />
       <Interests />
       <Sentence />
       <Contact />
