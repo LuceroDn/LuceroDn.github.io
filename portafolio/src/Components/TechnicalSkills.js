@@ -14,7 +14,7 @@ class TechnicalSkills extends Component {
           <div className="col">
 
             <div>
-            <h3 className="titlePages center-align">HABILIDADES TÉCNICAS</h3>
+              <h3 className="titlePages center-align">HABILIDADES TÉCNICAS</h3>
             </div>
 
             <div className=" technicalBox">
@@ -26,7 +26,7 @@ class TechnicalSkills extends Component {
                   <img className="css" src={css} alt="imgSkills" />
                 </div>
               </div>
-            
+
 
               <div className="row center-xs">
                 <div class="col s6">
@@ -38,18 +38,18 @@ class TechnicalSkills extends Component {
               </div>
             </div>
 
-              <div className="row center-xs">
-                <div class="col s6">
-                  <img className="materialize" src={materialize} alt="imgSkills" />
-                </div>
-                <div class="col s6">
-                  <img className="github" src={github} alt="imgSkills" />
-                </div>
+            <div className="row center-xs">
+              <div class="col s6">
+                <img className="materialize" src={materialize} alt="imgSkills" />
               </div>
-
+              <div class="col s6">
+                <img className="github" src={github} alt="imgSkills" />
+              </div>
             </div>
+
           </div>
         </div>
+      </div>
     )
   }
 }

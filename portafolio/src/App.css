@@ -150,12 +150,12 @@ nav {
 /* Projects */
 
 .backgroundProjects {
-  margin-top: -5%;
+  height: 190vh;
 }
 
 .cards {
-  width: 81%;
-  margin-left: 10%;;
+  margin-top: 20%;
+
 }
 
 .card-image {
