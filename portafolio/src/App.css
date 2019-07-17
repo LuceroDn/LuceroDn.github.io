@@ -85,6 +85,7 @@ nav {
   display: flex;
   justify-content: center;
   height: 90vh;
+  padding: 5%;
 }
 
 .technicalBox {
@@ -124,6 +125,7 @@ nav {
 .personalSkills{
   background-color: #d6dadd;
   height: 90vh;
+  padding: 5%;
 }
 
 .lista {
@@ -133,7 +135,7 @@ nav {
 .textoLista {
   margin-top: 10%;
   font-family: 'Scope One', serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .focoSkills {
@@ -150,7 +152,7 @@ nav {
 /* Projects */
 
 .backgroundProjects {
-  height: 190vh;
+  height: 185vh;
 }
 
 .cards {
@@ -181,6 +183,11 @@ nav {
 .backgroundInterests {
   background-color: #d6dadd;
   height: 80vh;
+  padding: 5%;
+}
+
+.interestBox {
+  margin-top: 30%;
 }
 
 .subtitleInter {
@@ -195,10 +202,6 @@ nav {
   height: 40vh;
 }
 
-.interestBox {
-  margin-top: 20%;
-}
-
 .doWhatU {
   font-family: "Italian", serif;
   font-weight: bolder;
@@ -208,7 +211,27 @@ nav {
 }
 
 /* Contact */
+.backgroundContact {
+height: 90%;
+
+}
+
+.textContact {
+  font-family: "Scope One", serif;
+  font-size: 18px;
+  margin-top: 20%;
+}
+
+.textContactTop{
+  margin-top: 1%;
+  margin-bottom: 20%;
+}
+
+.contactBox {
+  display: flex;
+}
 
 .imgContact {
-  width: 15%;
+  width: 90%;
 }
+

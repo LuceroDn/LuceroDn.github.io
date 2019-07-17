@@ -5,7 +5,7 @@ class Sentence extends Component {
         return (
 
             <div className="container-fluid backgroundSentence">
-                <div className="row">
+                <div className="row center-xs">
                     <div className="col">
 
                     <div>
