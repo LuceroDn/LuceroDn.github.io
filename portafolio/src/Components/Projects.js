@@ -15,61 +15,61 @@ class Projects extends Component {
 
             <div className="row cards center-xs">
 
-            <div class="card sticky-action">
+              <div class="card sticky-action">
 
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator imgPokemon" src={imgDL} alt="pokemon" />
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator imgPokemon" src={imgDL} alt="pokemon" />
+                </div>
+
+                <div class="card-content #e0e0e0 grey lighten-2">
+                  <span class="card-title activator start-xs">Data Lovers<i class="material-icons right">more_vert</i></span>
+                  <p className="start-xs"><a href="#">Github</a></p>
+                </div>
+
+                <div class="card-reveal #e0e0e0 grey lighten-2">
+                  <span class="card-title">Data Lovers<i class="material-icons right close">close</i></span>
+                  <p className="textProject">Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+
               </div>
 
-              <div class="card-content #e0e0e0 grey lighten-2">
-                <span class="card-title activator start-xs">Data Lovers<i class="material-icons right">more_vert</i></span>
-                <p className="start-xs"><a href="#">Github</a></p>
+
+              <div class="card sticky-action">
+
+                <div class="card-image waves-effect waves-block waves-light backgTicTac">
+                  <img class="activator imgTicTac" src={imgTicTac} alt="tictac" />
+                </div>
+
+                <div class="card-content #e0e0e0 grey lighten-2">
+                  <span class="card-title activator start-xs">Tic Tac Toe<i class="material-icons right">more_vert</i></span>
+                  <p className="start-xs"><a href="#">Github</a></p>
+                </div>
+
+                <div class="card-reveal #e0e0e0 grey lighten-2">
+                  <span class="card-title">Tic Tac Toe<i class="material-icons right close">close</i></span>
+                  <p className="textProject">Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+
               </div>
 
-              <div class="card-reveal #e0e0e0 grey lighten-2">
-                <span class="card-title">Data Lovers<i class="material-icons right close">close</i></span>
-                <p className="textProject">Here is some more information about this product that is only revealed once clicked on.</p>
+
+              <div class="card sticky-action">
+
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator imgPokemon" src={imgDL} alt="pokemon" />
+                </div>
+
+                <div class="card-content #e0e0e0 grey lighten-2">
+                  <span class="card-title activator start-xs">Data Lovers<i class="material-icons right">more_vert</i></span>
+                  <p className="start-xs"><a href="#">Github</a></p>
+                </div>
+
+                <div class="card-reveal #e0e0e0 grey lighten-2">
+                  <span class="card-title">Data Lovers<i class="material-icons right close">close</i></span>
+                  <p className="textProject">Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+
               </div>
-
-            </div>
-
-
-            <div class="card sticky-action">
-
-              <div class="card-image waves-effect waves-block waves-light backgTicTac">
-                <img class="activator imgTicTac" src={imgTicTac} alt="tictac" />
-              </div>
-
-              <div class="card-content #e0e0e0 grey lighten-2">
-                <span class="card-title activator start-xs">Tic Tac Toe<i class="material-icons right">more_vert</i></span>
-                <p className="start-xs"><a href="#">Github</a></p>
-              </div>
-
-              <div class="card-reveal #e0e0e0 grey lighten-2">
-                <span class="card-title">Tic Tac Toe<i class="material-icons right close">close</i></span>
-                <p className="textProject">Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
-
-            </div>
-            
-
-            <div class="card sticky-action">
-
-              <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator imgPokemon" src={imgDL} alt="pokemon" />
-              </div>
-
-              <div class="card-content #e0e0e0 grey lighten-2">
-                <span class="card-title activator start-xs">Data Lovers<i class="material-icons right">more_vert</i></span>
-                <p className="start-xs"><a href="#">Github</a></p>
-              </div>
-
-              <div class="card-reveal #e0e0e0 grey lighten-2">
-                <span class="card-title">Data Lovers<i class="material-icons right close">close</i></span>
-                <p className="textProject">Here is some more information about this product that is only revealed once clicked on.</p>
-              </div>
-
-            </div>
 
             </div>
 

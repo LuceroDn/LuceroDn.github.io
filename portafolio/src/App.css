@@ -123,7 +123,7 @@ nav {
 
 .personalSkills{
   background-color: #d6dadd;
-  height: 85vh;
+  height: 90vh;
 }
 
 .lista {
@@ -182,14 +182,9 @@ nav {
   background-color: #d6dadd;
 }
 
-.interest {
-  margin-top: 30%;
-  margin-left: 50%;
-}
-
-.interest2 {
-  margin-top: 10%;
-  margin-left: 30%;
+.subtitleInter {
+  font-family: 'Scope One', serif;
+  font-size: 18px;
 }
 
 /* Sentence */
