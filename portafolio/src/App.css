@@ -180,6 +180,7 @@ nav {
 
 .backgroundInterests {
   background-color: #d6dadd;
+  height: 120vh;
 }
 
 .subtitleInter {
@@ -191,10 +192,14 @@ nav {
 
 .backgroundSentence {
   background-color: #d4f1e7;
+  height: 40vh;
 }
 
 .doWhatU {
-  font-size: 25px;
+  font-family: "Italian", serif;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 20%;
   padding: 10%;
 }
 
