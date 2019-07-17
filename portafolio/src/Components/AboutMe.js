@@ -15,7 +15,7 @@ class AboutMe extends Component {
             <p className="textAbout">Hola, soy Lucero, soy desarrolladora web y administradora de empresas. Me gusta mucho viajar, leer y los animales.</p>
             <p className="textAbout textAbout2">Aquí podrás encontrar algunos proyectos en los que he trabajado en Laboratoria</p>
 
-            <div className="row">
+            <div className="row center-xs">
               <div className="col">
             <img className="imgTravel" src={Travel} alt="travel" />
               </div>

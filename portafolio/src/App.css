@@ -69,8 +69,7 @@ nav {
 }
 
 .imgTravel {
-  width: 55%;
-  margin-left: 22%;
+  width: 35%;
   margin-bottom: 20%;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -89,36 +88,57 @@ nav {
 
 /* Technical Skills */
 
-.tecnicas {
+
+.technical {
   font-family: 'Italiana', serif;
   font-weight: bold;
   font-size: 19px;
   margin-top: 8%;
 }
 
+.technicalBox1 {
+  margin-left: %;
+  margin-top: 0%;
+}
+
+.technicalBox2 {
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+.technicalBox3 {
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
 .html {
-  width: 75%;
+  width: 65%;
+  margin-bottom: 10%;
+
 }
 
 .css {
-  width: 60%;
+  width: 47%;
+  margin-bottom: 10%;
+  margin-top: -2%;
+
 }
 
 .javascript {
-  width: 65%;
+  width: 48%;
 }
 
 .bootstrap {
-  width: 70%;
+  width: 40%;
 }
 
 .materialize {
-  width: 70%;
+  width: 45%;
 }
 
 .github {
-  margin-top: -40%;
-  width: 60%;
+  margin-top:;
+  width: 40%;
 }
 
 /* Personal Skills */
@@ -127,12 +147,86 @@ nav {
   font-family: 'Italiana', serif;
   font-weight: bold;
   font-size: 19px;
-  margin-top: 65%;
+  margin-top: 10%;
 }
 
+.metodologia {
+  margin-top: 20%;
+  width: 110%;
+  border-radius:  50%;
+  -webkit-border-radius:  50%;
+  -moz-border-radius:  50%;
+  -ms-border-radius:  50%;
+  -o-border-radius:  50%;
+}
 
+.textSkills {
+  font-family: 'Scope One', serif;
+  font-size: 18px;
+}
 
+.adaptation {
+  width: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 
+.selfLearning {
+  width: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.comunication {
+  width: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.management {
+  width: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.planning {
+  width: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.teamWork {
+  width: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.solution {
+  width: 40%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
 
 /* Projects */
 

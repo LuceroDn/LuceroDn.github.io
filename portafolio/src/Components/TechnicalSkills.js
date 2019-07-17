@@ -13,9 +13,11 @@ class TechnicalSkills extends Component {
         <div className="row skills">
           <div className="col">
 
-            <h3 className="tecnicas center-align">Técnicas</h3>
+            <h3 className="technical center-align">Técnicas</h3>
 
-            <div className="col">
+            <div className=" technicalBox1">
+
+              <div className="row center-xs">
 
               <div class="col s6">
                 <img className="html" src={html} alt="imgSkills" />
@@ -23,6 +25,12 @@ class TechnicalSkills extends Component {
               <div class="col s6">
                 <img className="css" src={css} alt="imgSkills" />
               </div>
+
+              </div>
+              </div>
+
+              <div className="col technicalBox2">
+
               <div class="col s6">
                 <img className="javascript" src={javascript} alt="imgSkills" />
               </div>
@@ -30,6 +38,11 @@ class TechnicalSkills extends Component {
               <div class="col s6">
                 <img className="bootstrap" src={bootstrap} alt="imgSkills" />
               </div>
+
+          </div>
+
+          <div className="col technicalBox3">
+
               <div class="col s6">
                 <img className="materialize" src={materialize} alt="imgSkills" />
               </div>
@@ -37,7 +50,7 @@ class TechnicalSkills extends Component {
                 <img className="github" src={github} alt="imgSkills" />
               </div>
 
-            </div>
+              </div>  
 
           </div>
         </div>
