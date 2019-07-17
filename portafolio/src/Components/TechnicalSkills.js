@@ -14,7 +14,7 @@ class TechnicalSkills extends Component {
           <div className="col">
 
             <div>
-            <h3 className="titlePages center-align">Habilidades Técnicas</h3>
+            <h3 className="titlePages center-align">HABILIDADES TÉCNICAS</h3>
             </div>
 
             <div className=" technicalBox">
