@@ -16,29 +16,18 @@ class Interests extends Component {
               <h1 className="titlePages">INTERESES</h1>
             </div>
 
-            <div className="row">
-              <div className="col">
-                <img className="" src={animals} alt="animals" />
-                <p className="subtitleInter">Animales</p>
-              </div>
-            </div>
+<div className="interestBox">
+
 
             <div className="row">
-              <div className="col s6">
+              <div className="col">
                 <img className="" src={airplane} alt="airplane" />
                 <p className="subtitleInter">Viajar</p>
               </div>
             </div>
-
-            <div className="row">
-              <div className="col">
-                <img className="" src={music} alt="airplane" />
-                <p className="subtitleInter">Musica</p>
-              </div>
-            </div>
             
             <div className="row">
-              <div className="col s6">
+              <div className="col">
                 <img className="" src={ux} alt="airplane" />
                 <p className="subtitleInter">UX</p>
               </div>
@@ -50,6 +39,8 @@ class Interests extends Component {
                 <p className="subtitleInter">Consciencia Social</p>
               </div>
             </div>
+
+</div>
 
           </div>
         </div>
