@@ -3,6 +3,29 @@
   padding: 0;
 }
 
+/* NavBar */
+
+nav {
+  background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.navPicture {
+  width: 40%;
+  margin-left: 28%;
+  margin-top: 20%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.menuMobile {
+  font-family: 'Scope One', serif;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
 /* Presentation */
 
 .background1 {
@@ -10,10 +33,6 @@
   background-repeat: no-repeat;
   height: 90vh;
 
-}
-
-nav {
-  background: rgba(0, 0, 0, 0.2) !important;
 }
 
 .box {
