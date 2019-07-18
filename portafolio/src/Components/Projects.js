@@ -10,7 +10,7 @@ class Projects extends Component {
           <div className="col">
 
             <div>
-              <h1 className="titlePages">PROYECTOS</h1>
+              <h1 className="titlePages titleProjects">PROYECTOS</h1>
             </div>
 
             <div className="row cards center-xs">

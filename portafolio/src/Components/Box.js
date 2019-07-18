@@ -1,21 +1,22 @@
 import React, { Component } from "react";
-//import logo from "../img/logo.png";
+import logo from "../img/logo.png";
 
 
 class Box extends Component {
   render() {
     return (
-   <div className="box">
-    <div>
-        <h1 className="name">LUCERO DN</h1>
-    </div>
-    <div>
-        <p className="FrontE">Front-End Developer</p>
-    </div>
+   <div className="backgroundBox">
+     <div className="row center-xs">
+<div className="col box">
+<img className="logo" src={logo} alt="logo" />
+<p className="frontE">FRONT-END DEVELOPER</p>
+</div>
 
-    <div className="buttonCV">
-    <a class="btn-floating btn-large waves-effect waves-light #d4f1e7 teal lighten-3">CV</a>
-    </div>
+<div className="buttonCV">
+<a class="waves-effect waves-light btn-large #80cbc4 teal lighten-3">Descarga mi CV</a>
+</div>
+
+     </div>
    </div>
 
     );
