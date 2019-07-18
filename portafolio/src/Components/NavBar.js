@@ -20,7 +20,6 @@ componentDidMount() {
     <li><a href="badges.html">Habilidades Técnicas</a></li>
     <li><a href="collapsible.html">Habilidades Personales</a></li>
     <li><a href="mobile.html">Proyectos</a></li>
-    <li><a href="mobile.html">Intereses</a></li>
     <li><a href="mobile.html">Contacto</a></li>
       </ul>
     </div>
