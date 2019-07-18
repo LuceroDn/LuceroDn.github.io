@@ -16,10 +16,12 @@ componentDidMount() {
     <div className="nav-wrapper">
       <a href="#!" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
       <ul className="right hide-on-med-and-down">
-        <li><a href="./Component/Footer">Footer</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+      <li><a href="sass.html">Acerca de Mi</a></li>
+    <li><a href="badges.html">Habilidades Técnicas</a></li>
+    <li><a href="collapsible.html">Habilidades Personales</a></li>
+    <li><a href="mobile.html">Proyectos</a></li>
+    <li><a href="mobile.html">Intereses</a></li>
+    <li><a href="mobile.html">Contacto</a></li>
       </ul>
     </div>
   </nav>
