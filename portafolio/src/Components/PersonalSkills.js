@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import foco from "../img/foco.jpg";
+import foco from "../img/focoVerde.jpg";
 
 
 class PersonalSkills extends Component {
