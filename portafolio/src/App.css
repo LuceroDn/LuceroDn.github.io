@@ -394,7 +394,7 @@ nav {
 .background1 {
   background-image: url("../src/img/fondo.png");
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 96vh;
   width: 23.5rem;
 
 }
@@ -426,6 +426,10 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
 }
 
 /* About Me */
+
+.backgroundAbout{
+  width: 23.5rem;
+}
 
 .titlePages {
   font-family: 'Italiana',serif;
@@ -468,7 +472,8 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
   background-color: #d4f1e7;
   display: flex;
   justify-content: center;
-  height: 90vh;
+  height: 96vh;
+  width: 23.5rem;
   padding: 5%;
 }
 
@@ -508,7 +513,8 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
 
 .personalSkills{
   background-color: #fff;
-  height: 90vh;
+  height: 116vh;
+  width: 23.5rem;
   padding: 5%;
 }
 
@@ -538,7 +544,9 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
 
 .backgroundProjects {
   background-color: #616362;
-  height: 185vh;
+  height: 180vh;
+  padding: 2%;
+  width: 23.5rem;
 }
 
 .titleProjects {
@@ -564,8 +572,8 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
 }
 
 .cardBody {
-  width: 20rem;
-  height: 20rem;
+  width: 15rem;
+  height: 15rem;
   background-color: #fff;
   margin-top: 20%;
   position: relative;
@@ -652,7 +660,7 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
 
 .backgroundInterests {
   background-color: #fff;
-  height: 80vh;
+  height: 100vh;
   padding: 5%;
 }
 
@@ -670,19 +678,20 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
 .backgroundSentence {
   background-color: #d4f1e7;
   height: 40vh;
+  width: 23.5rem;
 }
 
 .doWhatU {
   font-family: "Italian", serif;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 23px;
   margin-top: 20%;
   padding: 10%;
 }
 
 /* Contact */
 .backgroundContact {
-height: 90%;
+height: 40rem;
 
 }
 
@@ -690,11 +699,13 @@ height: 90%;
   font-family: "Scope One", serif;
   font-size: 18px;
   margin-top: 20%;
+  padding: 32px;
 }
 
 .textContactTop{
-  margin-top: 1%;
+  margin-top: -25%;
   margin-bottom: 20%;
+  font-weight: bold;
 }
 
 .contactBox {
@@ -710,6 +721,7 @@ height: 90%;
 .backgroundFooter {
   background-color: #616362;
   height: 80%;
+  width: 23.5rem;
 } 
 
 .textFooter {
