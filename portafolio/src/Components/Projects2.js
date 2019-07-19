@@ -14,7 +14,7 @@ class Projects extends Component {
                         </div>
 
 
-	<div class="row center-xs wrap">
+	<div class="row center-xs center-sm wrap">
 		<div class="col cardProject">
 			<div class="cardBody">
 				<div class="forward card1">

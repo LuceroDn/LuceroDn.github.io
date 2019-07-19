@@ -6,7 +6,7 @@ class AboutMe extends Component {
 
   render() {
     return (
-      <div className="container backgroundAbout">
+      <div className="container-fluid backgroundAbout">
         <div className="row">
           <div className="col">
 

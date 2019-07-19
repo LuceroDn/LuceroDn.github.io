@@ -6,7 +6,7 @@ class Box extends Component {
   render() {
     return (
    <div className="backgroundBox">
-     <div className="row center-xs">
+     <div className="row center-xs center-sm center-lg">
 <div className="col box">
 <img className="logo" src={logo} alt="logo" />
 <p className="frontE">FRONT-END DEVELOPER</p>
