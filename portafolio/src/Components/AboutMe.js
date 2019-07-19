@@ -9,6 +9,8 @@ class AboutMe extends Component {
       <div className="container backgroundAbout">
         <div className="row">
           <div className="col">
+
+            <div className="aboutBox center-xs">
             <div>
               <h2 className="titlePages">ACERCA DE MI</h2>
             </div>
@@ -19,6 +21,8 @@ class AboutMe extends Component {
               <div className="col">
                 <img className="imgTravel" src={travel} alt="travel" />
               </div>
+            </div>
+
             </div>
 
           </div>
