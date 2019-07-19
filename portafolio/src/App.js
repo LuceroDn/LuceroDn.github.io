@@ -5,7 +5,7 @@ import Presentation from "./Components/Presentation";
 import AboutMe from "./Components/AboutMe";
 import TechnicalSkills from "./Components/TechnicalSkills";
 import PersonalSkills from "./Components/PersonalSkills";
-import Projects from "./Components/Projects";
+import Projects from "./Components/Projects2";
 import Interests from "./Components/Interests";
 import Sentence from "./Components/Sentence";
 import Contact from "./Components/Contact";
