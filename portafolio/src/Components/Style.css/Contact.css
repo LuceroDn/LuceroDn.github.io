@@ -3,12 +3,16 @@
         height: 40rem;
         
         }
+
+        .contactTitle {
+          margin-top: 30%;
+        }
         
         .textContact {
           font-family: "Scope One", serif;
           font-size: 18px;
-          margin-top: 20%;
-          padding: 32px;
+          margin-top: 7%;
+          padding: 29px;
         }
         
         .textContactTop{

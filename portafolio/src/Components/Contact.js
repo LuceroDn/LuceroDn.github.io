@@ -15,12 +15,12 @@ class Contact extends Component {
                     <div className="col">
 
                         <div>
-                            <h1 className="titlePages">CONTACTO</h1>
+                            <h1 className="titlePages contactTitle">CONTACTO</h1>
                         </div>
                         
                 
-                        <p className="textContact center-align">▶ ¿Te gustaría que trabajemos juntos?▶¿Tienes alguna duda o comentario?</p>
-                        <p className="textContact textContactTop center-align">▶ Escribeme, con gusto te responderé.</p>
+                        <p className="textContact center-align">¿Te gustaría que trabajemos juntos? ¿Tienes alguna duda o comentario?</p>
+                        <p className="textContact textContactTop center-align">Escribeme, con gusto te responderé.</p>
                         
 
                         <div className="container contactBox">

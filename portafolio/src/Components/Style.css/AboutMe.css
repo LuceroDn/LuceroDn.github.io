@@ -5,7 +5,7 @@
       
       .titlePages {
         font-family: 'Italiana',serif;
-        font-size: 18px;
+        font-size: 15px;
         color: #604c24;
         font-weight: bold;
         display: flex;
@@ -15,7 +15,7 @@
       
       .textAbout {
         font-family: 'Scope One',serif;
-        font-size: 15px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
         padding: 6%;

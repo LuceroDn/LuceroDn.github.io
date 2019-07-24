@@ -14,7 +14,7 @@ class Box extends Component {
 </div>
 
 <div className="buttonCV">
-<a class="waves-effect waves-light btn-large #80cbc4 teal lighten-3">Descarga mi CV</a>
+<a class="waves-effect waves-light btn #80cbc4 teal lighten-3">Descarga mi CV</a>
 </div>
 
      </div>
