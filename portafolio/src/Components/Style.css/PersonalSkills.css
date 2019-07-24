@@ -1,7 +1,7 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
   .personalSkills{
     background-color: #fff;
-    height: 116vh;
+    height: 87vh;
     width: 23.5rem;
     padding: 5%;
   }
@@ -13,11 +13,11 @@
   .textoLista {
     margin-top: 10%;
     font-family: 'Scope One', serif;
-    font-size: 15px;
+    font-size: 12px;
   }
   
   .focoSkills {
-    width: 22%;
+    width: 21%;
     margin-top: 15%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
