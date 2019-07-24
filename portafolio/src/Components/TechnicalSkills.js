@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import html from "../img/html02.png";
-import javascript from "../img/js02.jpg";
-import css from "../img/css02.png";
-import bootstrap from "../img/bootstrap02.png";
-import materialize from "../img/materialize02.png";
-import github from "../img/github02.png";
+import html from "./img/html02.png";
+import javascript from "./img/js02.jpg";
+import css from "./img/css02.png";
+import bootstrap from "./img/bootstrap02.png";
+import materialize from "./img/materialize02.png";
+import github from "./img/github02.png";
+import "./Style.css/TechnicalSkills.css";
 
 class TechnicalSkills extends Component {
   render() {

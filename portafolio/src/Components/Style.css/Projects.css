@@ -1,0 +1,574 @@
+@media only screen and (min-width: 5px) and (max-width: 340px) {
+    .backgroundProjects {
+        background-color: #616362;
+        height: 180vh;
+        padding: -1%;
+        width: 23.5rem;
+      }
+      
+      .titleProjects {
+        color: #fff;
+      }
+      
+      .titleCard {
+        font-family: 'Italian', serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .textBack {
+        font-family: 'Scope One', serif;
+        font-size: 15px;
+        padding: 4%;
+        font-weight: bolder;
+      }
+      
+      .cardProject {
+        -webkit-perspective: 800px;
+        perspective: 800px;
+      }
+      
+      .cardBody {
+        width: 15rem;
+        height: 15rem;
+        background-color: #fff;
+        margin-top: 20%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: .7s ease ;
+        -webkit-transition: .7s ease ;
+        -moz-transition: .7s ease ;
+        -ms-transition: .7s ease ;
+        -o-transition: .7s ease ;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      }
+      
+      .forward, .back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+      }
+      
+      .forward {
+        width: 100%;
+      }
+      
+      .back {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .backPokemon {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .backTictac {
+        background-color: #02aaff;
+      }
+      
+      .backBeatBox {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .cardProject:hover .cardBody {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .imgBox {
+        background-color: black;
+        height: 100%;
+      }
+      
+      .tictacBox {
+        background-color: #02aaff;
+        height: 100%;
+      }
+      
+      .imgTicTac {
+        width: 70%;
+        margin-top: 12%;  
+        background-color: #02aaff;
+      }
+      
+      .imgPokemon{
+        width: 90%;
+        background-color: black;
+        margin-top: 25%;
+      }
+      
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .backgroundProjects {
+        background-color: #616362;
+        height: 185vh;
+      }
+      
+      .titleProjects {
+        color: #fff;
+      }
+      
+      .titleCard {
+        font-family: 'Italian', serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .textBack {
+        font-family: 'Scope One', serif;
+        font-size: 15px;
+        padding: 4%;
+        font-weight: bolder;
+      }
+      
+      .cardProject {
+        -webkit-perspective: 800px;
+        perspective: 800px;
+      }
+      
+      .cardBody {
+        width: 20rem;
+        height: 20rem;
+        background-color: #fff;
+        margin-top: 20%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: .7s ease ;
+        -webkit-transition: .7s ease ;
+        -moz-transition: .7s ease ;
+        -ms-transition: .7s ease ;
+        -o-transition: .7s ease ;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      }
+      
+      .forward, .back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+      }
+      
+      .forward {
+        width: 100%;
+      }
+      
+      .back {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .backPokemon {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .backTictac {
+        background-color: #02aaff;
+      }
+      
+      .backBeatBox {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .cardProject:hover .cardBody {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .imgBox {
+        background-color: black;
+        height: 100%;
+      }
+      
+      .tictacBox {
+        background-color: #02aaff;
+        height: 100%;
+      }
+      
+      .imgTicTac {
+        width: 70%;
+        margin-top: 12%;  
+        background-color: #02aaff;
+      }
+      
+      .imgPokemon{
+        width: 90%;
+        background-color: black;
+        margin-top: 25%;
+      }     
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .backgroundProjects {
+        background-color: #616362;
+        height: 100vh;
+      }
+      
+      .wrap {
+        
+      }
+      
+      .titleProjects {
+        color: #fff;
+      }
+      
+      .titleCard {
+        font-family: 'Italian', serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .textBack {
+        font-family: 'Scope One', serif;
+        font-size: 15px;
+        padding: 4%;
+        font-weight: bolder;
+      }
+      
+      .cardProject {
+        -webkit-perspective: 800px;
+        perspective: 800px;
+      }
+      
+      .cardBody {
+        width: 20rem;
+        height: 20rem;
+        background-color: #fff;
+        margin-top: 20%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: .7s ease ;
+        -webkit-transition: .7s ease ;
+        -moz-transition: .7s ease ;
+        -ms-transition: .7s ease ;
+        -o-transition: .7s ease ;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      }
+      
+      .forward, .back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+      }
+      
+      .forward {
+        width: 100%;
+      }
+      
+      .back {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .backPokemon {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .backTictac {
+        background-color: #02aaff;
+      }
+      
+      .backBeatBox {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .cardProject:hover .cardBody {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .imgBox {
+        background-color: black;
+        height: 100%;
+      }
+      
+      .tictacBox {
+        background-color: #02aaff;
+        height: 100%;
+      }
+      
+      .imgTicTac {
+        width: 70%;
+        margin-top: 12%;  
+        background-color: #02aaff;
+      }
+      
+      .imgPokemon{
+        width: 90%;
+        background-color: black;
+        margin-top: 25%;
+      }
+}
+
+@media (min-width: 993px) {
+    .backgroundProjects {
+        background-color: #616362;
+        height: 100vh;
+      }
+      
+      .wrap {
+        
+      }
+      
+      .titleProjects {
+        color: #fff;
+      }
+      
+      .titleCard {
+        font-family: 'Italian', serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .textBack {
+        font-family: 'Scope One', serif;
+        font-size: 15px;
+        padding: 4%;
+        font-weight: bolder;
+      }
+      
+      .cardProject {
+        -webkit-perspective: 800px;
+        perspective: 800px;
+      }
+      
+      .cardBody {
+        width: 20rem;
+        height: 20rem;
+        background-color: #fff;
+        margin-top: 20%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: .7s ease ;
+        -webkit-transition: .7s ease ;
+        -moz-transition: .7s ease ;
+        -ms-transition: .7s ease ;
+        -o-transition: .7s ease ;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      }
+      
+      .forward, .back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+      }
+      
+      .forward {
+        width: 100%;
+      }
+      
+      .back {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .backPokemon {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .backTictac {
+        background-color: #02aaff;
+      }
+      
+      .backBeatBox {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .cardProject:hover .cardBody {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .imgBox {
+        background-color: black;
+        height: 100%;
+      }
+      
+      .tictacBox {
+        background-color: #02aaff;
+        height: 100%;
+      }
+      
+      .imgTicTac {
+        width: 70%;
+        margin-top: 12%;  
+        background-color: #02aaff;
+      }
+      
+      .imgPokemon{
+        width: 90%;
+        background-color: black;
+        margin-top: 25%;
+      }
+}
+
+@media (min-width: 1200px) {
+    .backgroundProjects {
+        background-color: #616362;
+        height: 100vh;
+      }
+      
+      .wrap {
+        
+      }
+      
+      .titleProjects {
+        color: #fff;
+      }
+      
+      .titleCard {
+        font-family: 'Italian', serif;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      
+      .textBack {
+        font-family: 'Scope One', serif;
+        font-size: 15px;
+        padding: 4%;
+        font-weight: bolder;
+      }
+      
+      .cardProject {
+        -webkit-perspective: 800px;
+        perspective: 800px;
+      }
+      
+      .cardBody {
+        width: 20rem;
+        height: 20rem;
+        background-color: #fff;
+        margin-top: 20%;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: .7s ease ;
+        -webkit-transition: .7s ease ;
+        -moz-transition: .7s ease ;
+        -ms-transition: .7s ease ;
+        -o-transition: .7s ease ;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      }
+      
+      .forward, .back {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+      }
+      
+      .forward {
+        width: 100%;
+      }
+      
+      .back {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .backPokemon {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .backTictac {
+        background-color: #02aaff;
+      }
+      
+      .backBeatBox {
+        background-color: black;
+        color: #fff;
+      }
+      
+      .cardProject:hover .cardBody {
+        transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+      }
+      
+      .imgBox {
+        background-color: black;
+        height: 100%;
+      }
+      
+      .tictacBox {
+        background-color: #02aaff;
+        height: 100%;
+      }
+      
+      .imgTicTac {
+        width: 70%;
+        margin-top: 12%;  
+        background-color: #02aaff;
+      }
+      
+      .imgPokemon{
+        width: 90%;
+        background-color: black;
+        margin-top: 25%;
+      }
+}

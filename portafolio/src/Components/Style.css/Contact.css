@@ -1,0 +1,159 @@
+@media (min-width: 5px) and (max-width: 340px) {
+    .backgroundContact {
+        height: 40rem;
+        
+        }
+        
+        .textContact {
+          font-family: "Scope One", serif;
+          font-size: 18px;
+          margin-top: 20%;
+          padding: 32px;
+        }
+        
+        .textContactTop{
+          margin-top: -25%;
+          margin-bottom: 20%;
+          font-weight: bold;
+        }
+        
+        .contactBox {
+          display: flex;
+        }
+        
+        .imgContact {
+          width: 90%;
+        }
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .backgroundContact {
+        height: 90%;
+        
+        }
+        
+        .textContact {
+          font-family: "Scope One", serif;
+          font-size: 18px;
+          margin-top: 20%;
+        }
+        
+        .textContactTop{
+          margin-top: 1%;
+          margin-bottom: 20%;
+        }
+        
+        .contactBox {
+          display: flex;
+        }
+        
+        .imgContact {
+          width: 90%;
+        }       
+}
+
+/* @media (min-width: 341px) and (max-width: 600px) and (orientation: landscape) {
+    .backgroundContact {
+        height: 90%;
+        
+        }
+        
+        .textContact {
+
+          font-family: "Scope One", serif;
+          font-size: 18px;
+          margin-top: 20%;
+        }
+        
+        .textContactTop{
+          margin-top: 1%;
+          margin-bottom: 20%;
+        }
+        
+        .contactBox {
+          display: flex;
+        }
+        
+        .imgContact {
+          width: 90%;
+        }       
+} */
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .backgroundContact {
+        height: 53rem;
+        
+        }
+        
+        .textContact {
+          font-family: "Scope One", serif;
+          font-size: 18px;
+          margin-top: 12%;
+        }
+        
+        .textContactTop{
+          margin-top: 1%;
+          margin-bottom: 20%;
+        }
+        
+        .contactBox {
+          display: flex;
+        }
+        
+        .imgContact {
+          width: 90%;
+        }
+}
+
+@media (min-width: 993px) {
+    .backgroundContact {
+        height: 53rem;
+        
+        }
+        
+        .textContact {
+          font-family: "Scope One", serif;
+          font-size: 18px;
+          margin-top: 12%;
+        }
+        
+        .textContactTop{
+          margin-top: 1%;
+          margin-bottom: 20%;
+        }
+        
+        .contactBox {
+          display: flex;
+        }
+        
+        .imgContact {
+          width: 90%;
+        }
+}
+
+@media (min-width: 1200px) {
+    .backgroundContact {
+        height: 53rem;
+        
+        }
+        
+        .textContact {
+          font-family: "Scope One", serif;
+          font-size: 18px;
+          margin-top: 12%;
+        }
+        
+        .textContactTop{
+          margin-top: 1%;
+          margin-bottom: 20%;
+        }
+        
+        .contactBox {
+          display: flex;
+        }
+        
+        .imgContact {
+          width: 90%;
+        }
+}
+

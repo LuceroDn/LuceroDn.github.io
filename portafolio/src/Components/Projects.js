@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import imgDL from '../img/pokemon.png';
 import imgTicTac from '../img/toktaktok_03.png';
 
+
 class Projects extends Component {
   render() {
     return (

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import logo from "../img/logo.png";
+import logo from "./img/logo.png";
+import "./Style.css/Presentation.css"
 
 
 class Box extends Component {

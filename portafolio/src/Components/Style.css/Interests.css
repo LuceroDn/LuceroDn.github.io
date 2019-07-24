@@ -1,0 +1,92 @@
+@media (min-width: 5px) and (max-width: 340px) {
+    .backgroundInterests {
+        background-color: #fff;
+        height: 100vh;
+        padding: 5%;
+      }
+      
+      .interestBox {
+        margin-top: 40%;
+      }
+
+      .imgInterest {
+        width: 7vh;
+      }
+      
+      .subtitleInter {
+        font-family: 'Scope One', serif;
+        font-size: 15px;
+      }      
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .backgroundInterests {
+        background-color: #fff;
+        height: 80vh;
+        padding: 5%;
+      }
+      
+      .interestBox {
+        margin-top: 30%;
+      }
+      
+      .subtitleInter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+      }
+      
+      .imgInterst {
+        width: 10%;
+      }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .backgroundInterests {
+        background-color: #fff;
+        height: 74vh;
+        padding: 12%;
+      }
+      
+      .interestBox {
+        margin-top: 45%;
+      }
+      
+      .subtitleInter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+      }      
+}
+
+@media (min-width: 993px) {
+    .backgroundInterests {
+        background-color: #fff;
+        height: 74vh;
+        padding: 12%;
+      }
+      
+      .interestBox {
+        margin-top: 45%;
+      }
+      
+      .subtitleInter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+      }
+}
+
+@media (min-width: 1200px) {
+    .backgroundInterests {
+        background-color: #fff;
+        height: 74vh;
+        padding: 12%;
+      }
+      
+      .interestBox {
+        margin-top: 45%;
+      }
+      
+      .subtitleInter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+      }
+}

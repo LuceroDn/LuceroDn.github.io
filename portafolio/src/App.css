@@ -303,6 +303,10 @@ box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
   font-size: 18px;
 }
 
+.imgInterst {
+  width: 10%;
+}
+
 /* Sentence */
 
 .backgroundSentence {
@@ -367,7 +371,7 @@ height: 90%;
 nav {
   background: rgba(0, 0, 0, 0.2) !important;
 }
-
+  
 .navPicture {
   width: 33%;
   margin-left: 32%;

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import imgPokemon from '../img/pokemon.png';
-import imgTicTac from '../img/tictactoe.png';
+import imgPokemon from './img/pokemon.png';
+import imgTicTac from './img/tictactoe.png';
+import "./Style.css/Projects.css";
 
 class Projects extends Component {
     render() {

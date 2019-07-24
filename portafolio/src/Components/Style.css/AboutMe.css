@@ -1,0 +1,238 @@
+@media (min-width: 5px) and (max-width: 340px) {
+    .backgroundAbout{
+        width: 23.5rem;
+      }
+      
+      .titlePages {
+        font-family: 'Italiana',serif;
+        font-size: 18px;
+        color: #604c24;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+      }
+      
+      .textAbout {
+        font-family: 'Scope One',serif;
+        font-size: 15px;
+        display: flex;
+        justify-content: center;
+        padding: 6%;
+        margin-top: 10%;
+      }
+      
+      .textAbout2 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        justify-content: center;
+      }
+      
+      .imgTravel {
+        width: 25%;
+        margin-bottom: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .titlePages {
+        font-family: 'Italiana',serif;
+        font-size: 25px;
+        color: #604c24;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+      }
+      
+      .textAbout {
+        font-family: 'Scope One',serif;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        padding: 6%;
+        margin-top: 10%;
+      }
+      
+      .textAbout2 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        justify-content: center;
+      }
+      
+      .imgTravel {
+        width: 35%;
+        margin-bottom: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }     
+}
+
+/* @media (min-width: 341px) and (max-width: 600px) and (orientation: landscape) {
+    .titlePages {
+        font-family: 'Italiana',serif;
+        font-size: 25px;
+        color: #604c24;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 30%;
+      }
+      
+      .textAbout {
+        font-family: 'Scope One',serif;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        padding: 6%;
+        margin-top: 10%;
+      }
+      
+      .textAbout2 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        justify-content: center;
+      }
+      
+      .imgTravel {
+        width: 35%;
+        margin-bottom: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }     
+} */
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .backgroundAbout {
+        width: 90%;
+      }
+      
+      .titlePages {
+        font-family: 'Italiana',serif;
+        font-size: 30px;
+        color: #604c24;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 21%;
+      }
+      
+      .textAbout {
+        font-family: 'Scope One',serif;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        padding: 3%;
+        margin-top: 12%;
+      }
+      
+      .textAbout2 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        justify-content: center;
+      }
+      
+      .imgTravel {
+        width: 34%;
+        margin-bottom: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }      
+}
+
+@media (min-width: 993px) {
+    .backgroundAbout {
+        width: 90%;
+      }
+      
+      .titlePages {
+        font-family: 'Italiana',serif;
+        font-size: 30px;
+        color: #604c24;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 21%;
+      }
+      
+      .textAbout {
+        font-family: 'Scope One',serif;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        padding: 3%;
+        margin-top: 12%;
+      }
+      
+      .textAbout2 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        justify-content: center;
+      }
+      
+      .imgTravel {
+        width: 34%;
+        margin-bottom: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }     
+}
+
+
+@media (min-width: 1200px) { 
+    .backgroundAbout {
+        width: 90%;
+      }
+      
+      .titlePages {
+        font-family: 'Italiana',serif;
+        font-size: 30px;
+        color: #604c24;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        margin-top: 21%;
+      }
+      
+      .textAbout {
+        font-family: 'Scope One',serif;
+        font-size: 17px;
+        display: flex;
+        justify-content: center;
+        padding: 3%;
+        margin-top: 12%;
+      }
+      
+      .textAbout2 {
+        margin-top: -5%;
+        margin-bottom: 10%;
+        justify-content: center;
+      }
+      
+      .imgTravel {
+        width: 34%;
+        margin-bottom: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+}

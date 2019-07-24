@@ -1,0 +1,119 @@
+@media (min-width: 5px) and (max-width: 340px) {
+    nav {
+        background: rgba(0, 0, 0, 0.2) !important;
+      }
+        
+      .navPicture {
+        width: 13%;
+        margin-left: 32%;
+        margin-top: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      
+      .menuMobile {
+        font-family: 'Scope One', serif;
+        font-weight: bolder;
+        font-size: 13px;
+      }
+      
+      .sidenav li>a{
+        font-size: 12px;
+      }
+      
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    nav {
+        background: rgba(0, 0, 0, 0.2) !important;
+      }
+      
+      .navPicture {
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      
+      .menuMobile {
+        font-family: 'Scope One', serif;
+        font-weight: bolder;
+        font-size: 16px;
+      }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    nav {
+        background: rgba(0, 0, 0, 0.2) !important;
+      }
+      
+      .navPicture {
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      
+      .menuMobile {
+        font-family: 'Scope One', serif;
+        font-weight: bolder;
+        font-size: 16px;
+      }
+}
+
+@media (min-width: 993px) {
+    nav {
+        background: rgba(0, 0, 0, 0.2) !important;
+      }
+      
+      .navPicture {
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      
+      .menuMobile {
+        font-family: 'Scope One', serif;
+        font-weight: bolder;
+        font-size: 16px;
+      }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        background: rgba(0, 0, 0, 0.2) !important;
+      }
+      
+      .navPicture {
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }
+      
+      .menuMobile {
+        font-family: 'Scope One', serif;
+        font-weight: bolder;
+        font-size: 16px;
+      }
+}

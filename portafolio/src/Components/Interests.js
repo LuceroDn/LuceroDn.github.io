@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import airplane from "../img/avion.png";
-import music from "../img/musica.png";
-import ux from "../img/ux.png";
-import planet from "../img/planeta.png";
+import airplane from "./img/avion.png";
+import music from "./img/musica.png";
+import ux from "./img/ux.png";
+import planet from "./img/planeta.png";
+import "./Style.css/Interests.css"
 
 class Interests extends Component {
   render() {
@@ -20,22 +21,22 @@ class Interests extends Component {
 
             <div className="row">
               <div className="col s6">
-                <img className="" src={airplane} alt="airplane" />
+                <img className="imgInterest" src={airplane} alt="airplane" />
                 <p className="subtitleInter">Viajar</p>
               </div>
               <div className="col s6">
-                <img className="" src={ux} alt="airplane" />
+                <img className="imgInterest" src={ux} alt="airplane" />
                 <p className="subtitleInter">UX</p>
               </div>
             </div>
 
             <div className="row">
               <div className="col s6">
-                <img className="" src={planet} alt="airplane" />
+                <img className="imgInterest" src={planet} alt="airplane" />
                 <p className="subtitleInter">Consciencia Social</p>
               </div>
               <div className="col s6">
-                <img className="" src={music} alt="musica" />
+                <img className="imgInterest" src={music} alt="musica" />
                 <p className="subtitleInter">Música</p>
               </div>
             </div>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import "./Style.css/NavBar.css"
 import M from "materialize-css";
-import navPicture from "../img/lucero.jpg";
+import navPicture from "./img/lucero.jpg";
 
 class NavBar extends Component {
 componentDidMount() {

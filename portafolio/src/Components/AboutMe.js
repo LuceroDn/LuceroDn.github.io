@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import travel from "../img/travel1.jpg";
+import travel from "./img/travel1.jpg";
+import "./Style.css/AboutMe.css"
 
 
 class AboutMe extends Component {

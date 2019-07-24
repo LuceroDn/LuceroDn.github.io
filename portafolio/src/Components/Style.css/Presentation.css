@@ -1,0 +1,189 @@
+@media only screen and (min-width: 5px) and (max-width: 340px) {
+    .background1 {
+        background-image: url("../img/fondo.png");
+        background-repeat: no-repeat;
+        height: 96vh;
+        width: 23.5rem;
+      
+      }
+      
+      .box {
+        background-color: #fff;
+        width: 17em;
+        height: 9rem;
+        margin-top: 30%;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+        
+      }
+      
+      .logo {
+        width: 75%;
+        margin-top: 20%;
+      }
+      
+      .frontE {
+        font-family: 'Italian', serif;
+        font-size: 14px;
+        margin-top: 1%;
+      }
+      
+      .buttonCV {
+        margin-top: 20%;  
+      }
+      
+}
+
+@media (min-width: 341px) and (max-width: 600px) { 
+
+.background1 {
+    background-image: url("../img/fondo.png");
+    background-repeat: no-repeat;
+    height: 90vh;
+  
+  }
+  
+  .box {
+    background-color: #fff;
+    width: 20rem;
+    height: 10rem;
+    margin-top: 30%;
+    -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+  -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+  box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+    
+  }
+  
+  .logo {
+    width: 75%;
+    margin-top: 20%;
+  }
+  
+  .frontE {
+    font-family: 'Italian', serif;
+    font-size: 14px;
+    margin-top: 1%;
+  }
+  
+  .buttonCV {
+    margin-top: 20%;  
+  }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .background1 {
+        background-image: url("../img/fondo.png");
+        background-repeat: no-repeat;
+        height: 55rem;
+        width: 54.8rem;
+      
+      }
+      
+      .box {
+        background-color: #fff;
+        width: 28rem;
+        height: 14rem;
+        margin-top: 19%;
+        margin-left: 175px;
+        margin-right: 152px;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+        
+      }
+      
+      .logo {
+        width: 75%;
+        margin-top: 20%;
+      }
+      
+      .frontE {
+        font-family: 'Italian', serif;
+        font-size: 14px;
+        margin-top: 1%;
+      }
+      
+      .buttonCV {
+        margin-top: 15%;  
+        margin-left: 5%;
+      }      
+}
+
+@media (min-width: 993px) {
+    .background1 {
+        background-image: url("../img/fondo.png");
+        background-repeat: no-repeat;
+        height: 55rem;
+        width: 54.8rem;
+      
+      }
+      
+      .box {
+        background-color: #fff;
+        width: 28rem;
+        height: 14rem;
+        margin-top: 19%;
+        margin-left: 175px;
+        margin-right: 152px;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+        
+      }
+      
+      .logo {
+        width: 75%;
+        margin-top: 20%;
+      }
+      
+      .frontE {
+        font-family: 'Italian', serif;
+        font-size: 14px;
+        margin-top: 1%;
+      }
+      
+      .buttonCV {
+        margin-top: 15%;  
+        margin-left: 5%;
+      }     
+}
+
+@media (min-width: 1200px) {
+    .background1 {
+        background-image: url("../img/fondo.png");
+        background-repeat: no-repeat;
+        height: 55rem;
+        width: 54.8rem;
+      
+      }
+      
+      .box {
+        background-color: #fff;
+        width: 28rem;
+        height: 14rem;
+        margin-top: 19%;
+        margin-left: 175px;
+        margin-right: 152px;
+        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+        
+      }
+      
+      .logo {
+        width: 75%;
+        margin-top: 20%;
+      }
+      
+      .frontE {
+        font-family: 'Italian', serif;
+        font-size: 14px;
+        margin-top: 1%;
+      }
+      
+      .buttonCV {
+        margin-top: 15%;  
+        margin-left: 5%;
+      }        
+}

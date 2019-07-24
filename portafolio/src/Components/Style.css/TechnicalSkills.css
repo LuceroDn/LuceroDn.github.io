@@ -1,0 +1,249 @@
+@media (min-width: 5px) and (max-width: 340px) {
+  .technicalSkills {
+    background-color: #d4f1e7;
+    display: flex;
+    justify-content: center;
+    height: 96vh;
+    width: 23.5rem;
+    padding: -1%;
+  }
+  
+  .technicalBox {
+    margin-top: 20%;
+  }
+  
+  .html {
+    width: 65%;
+    margin-bottom: 10%;
+  }
+  
+  .css {
+    width: 47%;
+  }
+  
+  .javascript {
+    width: 48%;
+  }
+  
+  .bootstrap {
+    width: 50%;
+    margin-top: 5%;
+  }
+  
+  .materialize {
+    width: 55%;
+    margin-top: 11%;
+  }
+  
+  .github {
+    width: 50%;
+  }
+  
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .technicalSkills {
+        background-color: #d4f1e7;
+        display: flex;
+        justify-content: center;
+        height: 90vh;
+        padding: 5%;
+      }
+      
+      .technicalBox {
+        margin-top: 20%;
+      }
+      
+      .html {
+        width: 65%;
+        margin-bottom: 10%;
+      
+      }
+      
+      .css {
+        width: 47%;
+      }
+      
+      .javascript {
+        width: 48%;
+      }
+      
+      .bootstrap {
+        width: 50%;
+        margin-top: 5%;
+      }
+      
+      .materialize {
+        width: 55%;
+        margin-top: 11%;
+      }
+      
+      .github {
+        width: 50%;
+      }
+}
+
+/* @media (min-width: 341px) and (max-width: 600px) and (orientation: landscape) {
+  .technicalSkills {
+    background-color: #d4f1e7;
+    display: flex;
+    justify-content: center;
+    height: 150vh;
+    padding: 5%;
+  }
+  
+  .technicalBox {
+    margin-top: 20%;
+  }
+  
+  .html {
+    width: 65%;
+    margin-bottom: 10%;
+  
+  }
+  
+  .css {
+    width: 47%;
+  }
+  
+  .javascript {
+    width: 48%;
+  }
+  
+  .bootstrap {
+    width: 50%;
+    margin-top: 5%;
+  }
+  
+  .materialize {
+    width: 55%;
+    margin-top: 11%;
+  }
+  
+  .github {
+    width: 50%;
+  }
+} */
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .technicalSkills {
+    background-color: #d4f1e7;
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+  }
+  
+  .technicalBox {
+    margin-top: 20%;
+  }
+  
+  .html {
+    width: 35%;
+    margin-bottom: 10%;
+  
+  }
+  
+  .css {
+    width: 24%;
+  }
+  
+  .javascript {
+    width: 25%;
+  }
+  
+  .bootstrap {
+    width: 26%;
+    margin-top: 1%;
+  }
+  
+  .materialize {
+    width: 32%;
+    margin-top: 5%;
+  }
+  
+  .github {
+    width: 26%;
+  }  
+}
+
+@media (min-width: 993px) {
+  .technicalSkills {
+    background-color: #d4f1e7;
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+  }
+  
+  .technicalBox {
+    margin-top: 20%;
+  }
+  
+  .html {
+    width: 35%;
+    margin-bottom: 10%;
+  
+  }
+  
+  .css {
+    width: 24%;
+  }
+  
+  .javascript {
+    width: 25%;
+  }
+  
+  .bootstrap {
+    width: 26%;
+    margin-top: 1%;
+  }
+  
+  .materialize {
+    width: 32%;
+    margin-top: 5%;
+  }
+  
+  .github {
+    width: 26%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .technicalSkills {
+    background-color: #d4f1e7;
+    display: flex;
+    justify-content: center;
+    height: 93vh;
+  }
+  
+  .technicalBox {
+    margin-top: 20%;
+  }
+  
+  .html {
+    width: 35%;
+    margin-bottom: 10%;
+  
+  }
+  
+  .css {
+    width: 24%;
+  }
+  
+  .javascript {
+    width: 25%;
+  }
+  
+  .bootstrap {
+    width: 26%;
+    margin-top: 1%;
+  }
+  
+  .materialize {
+    width: 32%;
+    margin-top: 5%;
+  }
+  
+  .github {
+    width: 26%;
+  }
+}

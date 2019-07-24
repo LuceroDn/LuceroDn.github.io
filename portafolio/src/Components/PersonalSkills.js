@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import foco from "../img/focoVerde.jpg";
+import foco from "./img/focoVerde.jpg";
+import "./Style.css/PersonalSkills.css";
 
 
 class PersonalSkills extends Component {

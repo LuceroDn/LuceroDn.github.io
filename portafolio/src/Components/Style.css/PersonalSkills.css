@@ -1,0 +1,141 @@
+@media only screen and (min-width: 5px) and (max-width: 340px) {
+  .personalSkills{
+    background-color: #fff;
+    height: 116vh;
+    width: 23.5rem;
+    padding: 5%;
+  }
+  
+  .lista {
+    margin-top: 20%;
+  }
+  
+  .textoLista {
+    margin-top: 10%;
+    font-family: 'Scope One', serif;
+    font-size: 15px;
+  }
+  
+  .focoSkills {
+    width: 22%;
+    margin-top: 15%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .personalSkills{
+        background-color: #fff;
+        height: 90vh;
+        padding: 5%;
+      }
+      
+      .lista {
+        margin-top: 20%;
+      }
+      
+      .textoLista {
+        margin-top: 10%;
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+      }
+      
+      .focoSkills {
+        width: 30%;
+        margin-top: 15%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }     
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .personalSkills{
+    background-color: #fff;
+    height: 74vh;
+    padding: 5%;
+  }
+  
+  .lista {
+    margin-top: 20%;
+  }
+  
+  .textoLista {
+    margin-top: 10%;
+    font-family: 'Scope One', serif;
+    font-size: 17px;
+  }
+  
+  .focoSkills {
+    width: 25%;
+    margin-top: 15%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }  
+}
+
+@media (min-width: 993px) {
+  .personalSkills{
+    background-color: #fff;
+    height: 74vh;
+    padding: 5%;
+  }
+  
+  .lista {
+    margin-top: 20%;
+  }
+  
+  .textoLista {
+    margin-top: 10%;
+    font-family: 'Scope One', serif;
+    font-size: 17px;
+  }
+  
+  .focoSkills {
+    width: 25%;
+    margin-top: 15%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }  
+}
+
+@media (min-width: 1200px) {
+  .personalSkills{
+    background-color: #fff;
+    height: 74vh;
+    padding: 5%;
+  }
+  
+  .lista {
+    margin-top: 20%;
+  }
+  
+  .textoLista {
+    margin-top: 10%;
+    font-family: 'Scope One', serif;
+    font-size: 17px;
+  }
+  
+  .focoSkills {
+    width: 25%;
+    margin-top: 15%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }  
+}

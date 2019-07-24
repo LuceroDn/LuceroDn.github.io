@@ -1,8 +1,9 @@
 import React, { Component } from "react";
-import whatsApp from "../img/whatsapp.png";
-import github from "../img/git.png";
-import linkedIn from "../img/linkedin.png";
-import eMail from "../img/mail.png"
+import whatsApp from "./img/whatsapp.png";
+import github from "./img/git.png";
+import linkedIn from "./img/linkedin.png";
+import eMail from "./img/mail.png"
+import "./Style.css/Contact.css"
 
 
 
