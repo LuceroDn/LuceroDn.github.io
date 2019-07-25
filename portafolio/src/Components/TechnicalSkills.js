@@ -1,10 +1,4 @@
 import React, { Component } from 'react';
-import html from "./img/html02.png";
-import javascript from "./img/js02.jpg";
-import css from "./img/css02.png";
-import bootstrap from "./img/bootstrap02.png";
-import materialize from "./img/materialize02.png";
-import github from "./img/github02.png";
 import "./Style.css/TechnicalSkills.css";
 
 class TechnicalSkills extends Component {
@@ -15,36 +9,36 @@ class TechnicalSkills extends Component {
           <div className="col">
 
             <div>
-              <h3 className="titlePages center-align">HABILIDADES TÉCNICAS</h3>
+              <h3 className="titlePages center-align titleTech">HABILIDADES TÉCNICAS</h3>
             </div>
 
             <div className=" technicalBox">
               <div className="row center-xs">
-                <div class="col s6">
-                  <img className="html" src={html} alt="imgSkills" />
+                <div class="col s6 boxTech">
+                <i class="devicon-html5-plain-wordmark"></i>
                 </div>
                 <div class="col s6">
-                  <img className="css" src={css} alt="imgSkills" />
+                <i class="devicon-css3-plain-wordmark"></i>
                 </div>
               </div>
 
 
               <div className="row center-xs">
                 <div class="col s6">
-                  <img className="javascript" src={javascript} alt="imgSkills" />
+                <i class="devicon-javascript-plain"></i>
                 </div>
                 <div class="col s6">
-                  <img className="bootstrap" src={bootstrap} alt="imgSkills" />
+                <i class="devicon-bootstrap-plain-wordmark"></i>
                 </div>
               </div>
             </div>
 
             <div className="row center-xs">
               <div class="col s6">
-                <img className="materialize" src={materialize} alt="imgSkills" />
+              <i class="devicon-react-original-wordmark"></i>
               </div>
               <div class="col s6">
-                <img className="github" src={github} alt="imgSkills" />
+              <i class="devicon-github-plain-wordmark"></i>
               </div>
             </div>
 

@@ -1,7 +1,7 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
   .personalSkills{
     background-color: #fff;
-    height: 87vh;
+    height: 80vh;
     width: 23.5rem;
     padding: 5%;
   }
@@ -18,7 +18,7 @@
   
   .focoSkills {
     width: 21%;
-    margin-top: 15%;
+    margin-top: 5%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

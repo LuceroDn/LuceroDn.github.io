@@ -3,40 +3,41 @@
     background-color: #d4f1e7;
     display: flex;
     justify-content: center;
-    height: 96vh;
+    height: 72vh;
     width: 23.5rem;
     padding: -1%;
   }
-  
+
   .technicalBox {
     margin-top: 20%;
   }
-  
-  .html {
-    width: 65%;
-    margin-bottom: 10%;
+
+  .titleTech {
+    margin-bottom: 30%; 
   }
   
-  .css {
-    width: 47%;
+  .devicon-html5-plain-wordmark {
+    font-size: 4rem;
+  }
+
+  .devicon-css3-plain-wordmark {
+    font-size: 4rem;
   }
   
-  .javascript {
-    width: 48%;
+  .devicon-javascript-plain {
+    font-size: 3rem;
   }
   
-  .bootstrap {
-    width: 50%;
-    margin-top: 5%;
+  .devicon-bootstrap-plain-wordmark {
+    font-size: 3.5rem;  
   }
   
-  .materialize {
-    width: 55%;
-    margin-top: 11%;
+  .devicon-react-original-wordmark {
+    font-size: 4rem;
   }
   
-  .github {
-    width: 50%;
+  .devicon-github-plain-wordmark {
+    font-size: 4rem;
   }
   
 }

@@ -1,7 +1,7 @@
 @media (min-width: 5px) and (max-width: 340px) {
     .backgroundInterests {
         background-color: #fff;
-        height: 100vh;
+        height: 72vh;
         padding: 5%;
       }
       
@@ -10,12 +10,12 @@
       }
 
       .imgInterest {
-        width: 7vh;
+        width: 6vh;
       }
       
       .subtitleInter {
         font-family: 'Scope One', serif;
-        font-size: 15px;
+        font-size: 12px;
       }      
 }
 

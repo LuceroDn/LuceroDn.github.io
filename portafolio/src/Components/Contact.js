@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import whatsApp from "./img/whatsapp.png";
-import github from "./img/git.png";
-import linkedIn from "./img/linkedin.png";
-import eMail from "./img/mail.png"
+
 import "./Style.css/Contact.css"
 
 
@@ -25,24 +22,18 @@ class Contact extends Component {
 
                         <div className="container contactBox">
 
-                            <div className="row center-xs ">
-                                <div class="col s3">
-                                    <a href="#"><img className="imgContact" src={whatsApp} alt="whatsapp" /></a>
+                                <div class="col s4">
+                                <a><img className="email" src="https://img.icons8.com/ios-glyphs/30/000000/secured-letter.png"/></a>
                                 </div>
 
-                                <div class="col s3">
-                                    <a href="#"><img className="imgContact" src={eMail} alt="mail" /></a>
+                                <div class="col s4">
+                                <a href="#"><img className="linkedin" src="https://img.icons8.com/ios-glyphs/50/000000/linkedin-2.png"/></a>
                                 </div>
 
-                                <div class="col s3">
-                                    <a href="#"><img className="imgContact" src={linkedIn} alt="linkedin" /></a>
+                                <div class="col s4">
+                                <a><img className="github" src="https://img.icons8.com/windows/64/000000/github.png"/></a>
                                 </div>
-
-                                <div class="col s3">
-                                    <a href="#"><img className="imgContact" src={github} alt="github" /></a>
-                                </div>
-
-                            </div>
+                    
 
                         </div>
                     </div>
