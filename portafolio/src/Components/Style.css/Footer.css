@@ -1,12 +1,99 @@
-.backgroundFooter {
-    background-color: #616362;
-    height: 10rem;
-  } 
-  
-  .textFooter {
-    font-family: 'Scope One', serif;
-    font-size: 18px;
-    margin-top: 6%;
-    color: #fff;
-  }
-  
+@media (min-width: 5px) and (max-width: 340px) {
+    .backgroundFooter {
+        background-color: #616362;
+        height: 4%;
+      } 
+      
+      .textFooter {
+        font-family: 'Scope One', serif;
+        font-size: 10px;
+        margin-top: 10%;
+        color: #fff;
+      }    
+}
+
+@media (min-width: 341px) and (max-width: 600px) {
+    .backgroundFooter {
+        background-color: #616362;
+        height: 10rem;
+      } 
+      
+      .textFooter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+        margin-top: 6%;
+        color: #fff;
+      }    
+}
+
+/* @media (min-width: 341px) and (max-width: 600px) and (orientation: landscape) {
+    .backgroundContact {
+        height: 90%;
+        
+        }
+        
+        .textContact {
+
+          font-family: "Scope One", serif;
+          font-size: 18px;
+          margin-top: 20%;
+        }
+        
+        .textContactTop{
+          margin-top: 1%;
+          margin-bottom: 20%;
+        }
+        
+        .contactBox {
+          display: flex;
+        }
+        
+        .imgContact {
+          width: 90%;
+        }       
+} */
+
+@media (min-width: 601px) and (max-width: 992px) {
+    .backgroundFooter {
+        background-color: #616362;
+        height: 10rem;
+      } 
+      
+      .textFooter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+        margin-top: 6%;
+        color: #fff;
+      }    
+}
+
+@media (min-width: 993px) {
+    .backgroundFooter {
+        background-color: #616362;
+        height: 10rem;
+      } 
+      
+      .textFooter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+        margin-top: 6%;
+        color: #fff;
+      }    
+}
+
+@media (min-width: 1200px) {
+    .backgroundFooter {
+        background-color: #616362;
+        height: 10rem;
+      } 
+      
+      .textFooter {
+        font-family: 'Scope One', serif;
+        font-size: 18px;
+        margin-top: 6%;
+        color: #fff;
+      }      
+}
+
+
+
