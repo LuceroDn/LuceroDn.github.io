@@ -1,7 +1,7 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
   .personalSkills{
     background-color: #fff;
-    height: 80vh;
+    height: 78vh;
     width: 23.5rem;
     padding: 5%;
   }
@@ -29,31 +29,36 @@
 }
 
 @media (min-width: 341px) and (max-width: 600px) {
-    .personalSkills{
-        background-color: #fff;
-        height: 90vh;
-        padding: 5%;
-      }
-      
-      .lista {
-        margin-top: 20%;
-      }
-      
-      .textoLista {
-        margin-top: 10%;
-        font-family: 'Scope One', serif;
-        font-size: 18px;
-      }
-      
-      .focoSkills {
-        width: 30%;
-        margin-top: 15%;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
-      }     
+  .personalSkills{
+    background-color: #fff;
+    height: 71vh;
+    width: 26.5rem;
+    padding: 5%;
+  }
+
+  .titlePersonalS {
+    margin-top: 27%;
+  }
+  
+  .lista {
+    margin-top: 20%;
+  }
+  
+  .textoLista {
+    margin-top: 10%;
+    font-family: 'Scope One', serif;
+    font-size: 12px;
+  }
+  
+  .focoSkills {
+    width: 21%;
+    margin-top: 5%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }     
 }
 
 @media (min-width: 601px) and (max-width: 992px) {

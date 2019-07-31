@@ -1,574 +1,814 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
     .backgroundProjects {
         background-color: #616362;
-        height: 180vh;
-        padding: -1%;
+        height: 133vh;
         width: 23.5rem;
       }
       
       .titleProjects {
         color: #fff;
+        margin-top: 35%;
       }
-      
+
+      .container {
+        position: relative;
+        height: auto;
+        display: inline-block;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 440px;
+        grid-gap: 40px;
+        margin-top: 15%;
+      }
+
+      .container .card {
+        position: relative;
+        background: #000;
+        overflow: hidden;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+
+      .container .card:hover {
+        transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+} 
+
+      .card {
+        width: 15rem;
+        height: 10rem;
+        margin-bottom: 15%;
+      }
+
+      .imgProject {
+        width: 15rem;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
+
       .titleCard {
+        font-family: 'Scope One', serif;
+        font-size: 15px;
+        margin: -8px 0 10px;
+        padding: 0;
+        color: #fff;
+      }
+
+      .subtitleCard {
+        color: #fff;
+        font-size: 14px;
+        
+      }
+
+      .textCard {
+        font-family: 'Scope One', serif;
+        font-size: 13px;
+        color: #fff;
+        margin-top: -80%;
+        margin: 0%;
+        padding: 1%;
+      }
+
+      .container .card .img-box {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+      }
+
+      .container .card:hover .img-box {
+        opacity: .5;
+      }
+
+      .container .card .img-box img {
+        width: 100%;
+      }
+
+      .container .card .content {
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        bottom: -100%;
+        /* padding-top: 2px; */
+        box-sizing: border-box;
+        text-align: center;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+      }
+
+      .container .card:hover .content {
+        bottom: 0%;
+      }
+
+      .container .card .content ul {
+        display: flex;
+        margin: 3px 21px 0;
+        padding: 0%;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .container .card .content ul li a {
+        font-family: 'Scope One', serif;
+        color: #d4f1e7;
+        padding: 0 10px;
+        font-size: 15px;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+}
+
+      
+      /* .titleCard {
         font-family: 'Italian', serif;
-        font-size: 20px;
+        font-size: 11px;
         font-weight: bold;
+        margin-top: 10%;
+        margin-bottom: auto;
       }
       
       .textBack {
         font-family: 'Scope One', serif;
-        font-size: 15px;
-        padding: 4%;
+        font-size: 10px;
         font-weight: bolder;
-      }
-      
-      .cardProject {
-        -webkit-perspective: 800px;
-        perspective: 800px;
+        padding: 3%;
       }
       
       .cardBody {
-        width: 15rem;
-        height: 15rem;
-        background-color: #fff;
-        margin-top: 20%;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: .7s ease ;
-        -webkit-transition: .7s ease ;
-        -moz-transition: .7s ease ;
-        -ms-transition: .7s ease ;
-        -o-transition: .7s ease ;
-        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      width: 15rem;
+      height: 10rem;
+      background-color: #fff;
+      margin-top: 20%;
+      position: relative;
+      -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
       -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
       box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
       }
-      
-      .forward, .back {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-      }
-      
-      .forward {
-        width: 100%;
-      }
-      
-      .back {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .backPokemon {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .backTictac {
-        background-color: #02aaff;
-      }
-      
-      .backBeatBox {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .cardProject:hover .cardBody {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .imgBox {
-        background-color: black;
-        height: 100%;
-      }
+
+      .imgProj {
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+}
       
       .tictacBox {
-        background-color: #02aaff;
-        height: 100%;
+        
       }
       
       .imgTicTac {
-        width: 70%;
-        margin-top: 12%;  
-        background-color: #02aaff;
+     
+        width: 100%;
       }
       
       .imgPokemon{
-        width: 90%;
+        width: 100%;
         background-color: black;
-        margin-top: 25%;
-      }
+    
+      } */
       
 }
 
 @media (min-width: 341px) and (max-width: 600px) {
-    .backgroundProjects {
-        background-color: #616362;
-        height: 185vh;
-      }
-      
-      .titleProjects {
-        color: #fff;
-      }
-      
-      .titleCard {
-        font-family: 'Italian', serif;
-        font-size: 20px;
-        font-weight: bold;
-      }
-      
-      .textBack {
-        font-family: 'Scope One', serif;
-        font-size: 15px;
-        padding: 4%;
-        font-weight: bolder;
-      }
-      
-      .cardProject {
-        -webkit-perspective: 800px;
-        perspective: 800px;
-      }
-      
-      .cardBody {
-        width: 20rem;
-        height: 20rem;
-        background-color: #fff;
-        margin-top: 20%;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: .7s ease ;
-        -webkit-transition: .7s ease ;
-        -moz-transition: .7s ease ;
-        -ms-transition: .7s ease ;
-        -o-transition: .7s ease ;
-        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      }
-      
-      .forward, .back {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-      }
-      
-      .forward {
-        width: 100%;
-      }
-      
-      .back {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .backPokemon {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .backTictac {
-        background-color: #02aaff;
-      }
-      
-      .backBeatBox {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .cardProject:hover .cardBody {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .imgBox {
-        background-color: black;
-        height: 100%;
-      }
-      
-      .tictacBox {
-        background-color: #02aaff;
-        height: 100%;
-      }
-      
-      .imgTicTac {
-        width: 70%;
-        margin-top: 12%;  
-        background-color: #02aaff;
-      }
-      
-      .imgPokemon{
-        width: 90%;
-        background-color: black;
-        margin-top: 25%;
-      }     
+  .backgroundProjects {
+    background-color: #616362;
+    height: 121vh;
+    width: 26.5rem;
+  }
+  
+  .titleProjects {
+    color: #fff;
+    margin-top: 27%;
+  }
+
+  .container {
+    position: relative;
+    height: auto;
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+    margin-top: 15%;
+  }
+
+  .container .card {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+  .container .card:hover {
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+} 
+
+  .card {
+    width: 16rem;
+    height: 11rem;
+    margin-bottom: 15%;
+  }
+
+  .imgProject {
+    width: 15rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  .titleCard {
+    font-family: 'Scope One', serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: -8px 0 10px;
+    padding: 0;
+    color: #fff;
+  }
+
+  .subtitleCard {
+    color: #fff;
+    font-size: 14px;
+    
+  }
+
+  .textCard {
+    font-family: 'Scope One', serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: -80%;
+    margin: 0%;
+    padding: 1%;
+  }
+
+  .container .card .img-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .img-box {
+    opacity: .5;
+  }
+
+  .container .card .img-box img {
+    width: 100%;
+  }
+
+  .container .card .content {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: -100%;
+    /* padding-top: 2px; */
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .content {
+    bottom: 0%;
+  }
+
+  .container .card .content ul {
+    display: flex;
+    margin: 3px 21px 0;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container .card .content ul li a {
+    font-family: 'Scope One', serif;
+    font-weight: bolder;
+    color: #d4f1e7;
+    padding: 0 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
-    .backgroundProjects {
-        background-color: #616362;
-        height: 100vh;
-      }
-      
-      .wrap {
-        
-      }
-      
-      .titleProjects {
-        color: #fff;
-      }
-      
-      .titleCard {
-        font-family: 'Italian', serif;
-        font-size: 20px;
-        font-weight: bold;
-      }
-      
-      .textBack {
-        font-family: 'Scope One', serif;
-        font-size: 15px;
-        padding: 4%;
-        font-weight: bolder;
-      }
-      
-      .cardProject {
-        -webkit-perspective: 800px;
-        perspective: 800px;
-      }
-      
-      .cardBody {
-        width: 20rem;
-        height: 20rem;
-        background-color: #fff;
-        margin-top: 20%;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: .7s ease ;
-        -webkit-transition: .7s ease ;
-        -moz-transition: .7s ease ;
-        -ms-transition: .7s ease ;
-        -o-transition: .7s ease ;
-        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      }
-      
-      .forward, .back {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-      }
-      
-      .forward {
-        width: 100%;
-      }
-      
-      .back {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .backPokemon {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .backTictac {
-        background-color: #02aaff;
-      }
-      
-      .backBeatBox {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .cardProject:hover .cardBody {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .imgBox {
-        background-color: black;
-        height: 100%;
-      }
-      
-      .tictacBox {
-        background-color: #02aaff;
-        height: 100%;
-      }
-      
-      .imgTicTac {
-        width: 70%;
-        margin-top: 12%;  
-        background-color: #02aaff;
-      }
-      
-      .imgPokemon{
-        width: 90%;
-        background-color: black;
-        margin-top: 25%;
-      }
+  .backgroundProjects {
+    background-color: #616362;
+    height: 123vh;
+    width: 23.5rem;
+  }
+  
+  .titleProjects {
+    color: #fff;
+  }
+
+  .container {
+    position: relative;
+    margin: 150px auto 0;
+    height: auto;
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+    margin-top: 15%;
+  }
+
+  .container .card {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+  .container .card:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+} 
+
+  .card {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .imgProject {
+    width: 15rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  .titleCard {
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+  }
+
+  .subtitleCard {
+    color: #fff;
+    font-size: 13px;
+    
+  }
+
+  .textCard {
+    font-size: 12px;
+    color: #fff;
+    margin-top: -80%;
+    margin: 0%;
+    padding: 1%;
+  }
+
+  .container .card .img-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .img-box {
+    opacity: .5;
+  }
+
+  .container .card .img-box img {
+    width: 100%;
+  }
+
+  .container .card .content {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: -100%;
+    /* padding-top: 2px; */
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .content {
+    bottom: 0%;
+  }
+
+  .container .card:nth-child(1) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card:nth-child(2) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card:nth-child(3) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card .content ul {
+    display: flex;
+    margin: 20px 0 0;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container .card .content ul li a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
 }
 
 @media (min-width: 993px) {
-    .backgroundProjects {
-        background-color: #616362;
-        height: 100vh;
-      }
-      
-      .wrap {
-        
-      }
-      
-      .titleProjects {
-        color: #fff;
-      }
-      
-      .titleCard {
-        font-family: 'Italian', serif;
-        font-size: 20px;
-        font-weight: bold;
-      }
-      
-      .textBack {
-        font-family: 'Scope One', serif;
-        font-size: 15px;
-        padding: 4%;
-        font-weight: bolder;
-      }
-      
-      .cardProject {
-        -webkit-perspective: 800px;
-        perspective: 800px;
-      }
-      
-      .cardBody {
-        width: 20rem;
-        height: 20rem;
-        background-color: #fff;
-        margin-top: 20%;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: .7s ease ;
-        -webkit-transition: .7s ease ;
-        -moz-transition: .7s ease ;
-        -ms-transition: .7s ease ;
-        -o-transition: .7s ease ;
-        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      }
-      
-      .forward, .back {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-      }
-      
-      .forward {
-        width: 100%;
-      }
-      
-      .back {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .backPokemon {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .backTictac {
-        background-color: #02aaff;
-      }
-      
-      .backBeatBox {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .cardProject:hover .cardBody {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .imgBox {
-        background-color: black;
-        height: 100%;
-      }
-      
-      .tictacBox {
-        background-color: #02aaff;
-        height: 100%;
-      }
-      
-      .imgTicTac {
-        width: 70%;
-        margin-top: 12%;  
-        background-color: #02aaff;
-      }
-      
-      .imgPokemon{
-        width: 90%;
-        background-color: black;
-        margin-top: 25%;
-      }
+  .backgroundProjects {
+    background-color: #616362;
+    height: 123vh;
+    width: 23.5rem;
+  }
+  
+  .titleProjects {
+    color: #fff;
+  }
+
+  .container {
+    position: relative;
+    margin: 150px auto 0;
+    height: auto;
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+    margin-top: 15%;
+  }
+
+  .container .card {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+  .container .card:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+} 
+
+  .card {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .imgProject {
+    width: 15rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  .titleCard {
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+  }
+
+  .subtitleCard {
+    color: #fff;
+    font-size: 13px;
+    
+  }
+
+  .textCard {
+    font-size: 12px;
+    color: #fff;
+    margin-top: -80%;
+    margin: 0%;
+    padding: 1%;
+  }
+
+  .container .card .img-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .img-box {
+    opacity: .5;
+  }
+
+  .container .card .img-box img {
+    width: 100%;
+  }
+
+  .container .card .content {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: -100%;
+    /* padding-top: 2px; */
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .content {
+    bottom: 0%;
+  }
+
+  .container .card:nth-child(1) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card:nth-child(2) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card:nth-child(3) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card .content ul {
+    display: flex;
+    margin: 20px 0 0;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container .card .content ul li a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
 }
 
 @media (min-width: 1200px) {
-    .backgroundProjects {
-        background-color: #616362;
-        height: 100vh;
-      }
-      
-      .wrap {
-        
-      }
-      
-      .titleProjects {
-        color: #fff;
-      }
-      
-      .titleCard {
-        font-family: 'Italian', serif;
-        font-size: 20px;
-        font-weight: bold;
-      }
-      
-      .textBack {
-        font-family: 'Scope One', serif;
-        font-size: 15px;
-        padding: 4%;
-        font-weight: bolder;
-      }
-      
-      .cardProject {
-        -webkit-perspective: 800px;
-        perspective: 800px;
-      }
-      
-      .cardBody {
-        width: 20rem;
-        height: 20rem;
-        background-color: #fff;
-        margin-top: 20%;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: .7s ease ;
-        -webkit-transition: .7s ease ;
-        -moz-transition: .7s ease ;
-        -ms-transition: .7s ease ;
-        -o-transition: .7s ease ;
-        -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      -moz-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
-      }
-      
-      .forward, .back {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0%;
-        left: 0%;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-      }
-      
-      .forward {
-        width: 100%;
-      }
-      
-      .back {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .backPokemon {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .backTictac {
-        background-color: #02aaff;
-      }
-      
-      .backBeatBox {
-        background-color: black;
-        color: #fff;
-      }
-      
-      .cardProject:hover .cardBody {
-        transform: rotateY(180deg);
-        -webkit-transform: rotateY(180deg);
-        -moz-transform: rotateY(180deg);
-        -ms-transform: rotateY(180deg);
-        -o-transform: rotateY(180deg);
-      }
-      
-      .imgBox {
-        background-color: black;
-        height: 100%;
-      }
-      
-      .tictacBox {
-        background-color: #02aaff;
-        height: 100%;
-      }
-      
-      .imgTicTac {
-        width: 70%;
-        margin-top: 12%;  
-        background-color: #02aaff;
-      }
-      
-      .imgPokemon{
-        width: 90%;
-        background-color: black;
-        margin-top: 25%;
-      }
+  .backgroundProjects {
+    background-color: #616362;
+    height: 123vh;
+    width: 23.5rem;
+  }
+  
+  .titleProjects {
+    color: #fff;
+  }
+
+  .container {
+    position: relative;
+    margin: 150px auto 0;
+    height: auto;
+    display: inline-block;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 440px;
+    grid-gap: 40px;
+    margin-top: 15%;
+  }
+
+  .container .card {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+  .container .card:hover {
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .2);
+} 
+
+  .card {
+    width: 15rem;
+    height: 10rem;
+  }
+
+  .imgProject {
+    width: 15rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+  .titleCard {
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding: 0;
+    color: #fff;
+  }
+
+  .subtitleCard {
+    color: #fff;
+    font-size: 13px;
+    
+  }
+
+  .textCard {
+    font-size: 12px;
+    color: #fff;
+    margin-top: -80%;
+    margin: 0%;
+    padding: 1%;
+  }
+
+  .container .card .img-box {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .img-box {
+    opacity: .5;
+  }
+
+  .container .card .img-box img {
+    width: 100%;
+  }
+
+  .container .card .content {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    bottom: -100%;
+    /* padding-top: 2px; */
+    box-sizing: border-box;
+    text-align: center;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .container .card:hover .content {
+    bottom: 0%;
+  }
+
+  .container .card:nth-child(1) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card:nth-child(2) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card:nth-child(3) .content {
+    background: linear-gradient(0deg, #3a414c, transparent);
+  }
+
+  .container .card .content ul {
+    display: flex;
+    margin: 20px 0 0;
+    padding: 0%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container .card .content ul li a {
+    color: #fff;
+    padding: 0 10px;
+    font-size: 15px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
 }

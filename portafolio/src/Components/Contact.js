@@ -17,21 +17,21 @@ class Contact extends Component {
                         
                 
                         <p className="textContact center-align">¿Te gustaría que trabajemos juntos? ¿Tienes alguna duda o comentario?</p>
-                        <p className="textContact textContactTop center-align">Escribeme, con gusto te responderé.</p>
+                        <p className="textContact textContactTop center-align">Escríbeme, con gusto te responderé.</p>
                         
 
                         <div className="container contactBox">
 
                                 <div class="col s4">
-                                <a><img className="email" src="https://img.icons8.com/ios-glyphs/30/000000/secured-letter.png"/></a>
+                                <a href="mailto:lucero_dn@hotmail.es"><img className="email" src="https://img.icons8.com/ios-glyphs/30/000000/secured-letter.png"/></a>
                                 </div>
 
                                 <div class="col s4">
-                                <a href="#"><img className="linkedin" src="https://img.icons8.com/ios-glyphs/50/000000/linkedin-2.png"/></a>
+                                <a href="https://www.linkedin.com/in/lucerodn/"><img className="linkedin" src="https://img.icons8.com/ios-glyphs/50/000000/linkedin-2.png"/></a>
                                 </div>
 
                                 <div class="col s4">
-                                <a><img className="github" src="https://img.icons8.com/windows/64/000000/github.png"/></a>
+                                <a href="https://github.com/LuceroDn"><img className="github" src="https://img.icons8.com/windows/64/000000/github.png"/></a>
                                 </div>
                     
 

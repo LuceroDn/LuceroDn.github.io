@@ -1,7 +1,7 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
     .backgroundSentence {
         background-color: #d4f1e7;
-        height: 40vh;
+        height: 27vh;
         width: 23.5rem;
       }
       
@@ -9,7 +9,7 @@
         font-family: "Italian", serif;
         font-weight: bolder;
         font-size: 14px;
-        margin-top: 25%;
+        margin-top: 14%;
         padding: 10%;
       }
 }
@@ -17,16 +17,17 @@
 @media (min-width: 341px) and (max-width: 600px) {
     .backgroundSentence {
         background-color: #d4f1e7;
-        height: 40vh;
+        height: 27vh;
+        width: 26.5rem;
       }
       
       .doWhatU {
         font-family: "Italian", serif;
         font-weight: bolder;
-        font-size: 25px;
-        margin-top: 20%;
+        font-size: 14px;
+        margin-top: 14%;
         padding: 10%;
-      }     
+      }    
 }
 
 @media (min-width: 601px) and (max-width: 992px) {

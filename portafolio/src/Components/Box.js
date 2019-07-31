@@ -13,7 +13,7 @@ class Box extends Component {
 <p className="frontE">FRONT-END DEVELOPER</p>
 </div>
 
-<div className="buttonCV">
+<div className="buttonCV center-xs">
 <a class="waves-effect waves-light btn #80cbc4 teal lighten-3">Descarga mi CV</a>
 </div>
 

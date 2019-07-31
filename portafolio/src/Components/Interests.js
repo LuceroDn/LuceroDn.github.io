@@ -13,7 +13,7 @@ class Interests extends Component {
           <div className="col">
 
             <div>
-              <h1 className="titlePages">INTERESES</h1>
+              <h1 className="titlePages titleInter">INTERESES</h1>
             </div>
 
 <div className="interestBox">

@@ -40,19 +40,24 @@
 }
 
 @media (min-width: 341px) and (max-width: 600px) {
-    .titlePages {
+    .backgroundAbout{
+        height: 33rem;
+        width: 26.5rem;
+      }
+      
+      .titlePages {
         font-family: 'Italiana',serif;
-        font-size: 25px;
+        font-size: 15px;
         color: #604c24;
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: 30%;
+        margin-top: 23%;
       }
       
       .textAbout {
         font-family: 'Scope One',serif;
-        font-size: 18px;
+        font-size: 12px;
         display: flex;
         justify-content: center;
         padding: 6%;
@@ -66,14 +71,14 @@
       }
       
       .imgTravel {
-        width: 35%;
+        width: 25%;
         margin-bottom: 20%;
         border-radius: 50%;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-      }     
+      }
 }
 
 /* @media (min-width: 341px) and (max-width: 600px) and (orientation: landscape) {
@@ -125,7 +130,7 @@
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: 21%;
+        margin-top: -13%;
       }
       
       .textAbout {

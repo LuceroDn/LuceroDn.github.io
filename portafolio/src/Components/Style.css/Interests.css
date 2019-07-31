@@ -1,12 +1,17 @@
 @media (min-width: 5px) and (max-width: 340px) {
     .backgroundInterests {
         background-color: #fff;
-        height: 72vh;
+        height: 74vh;
         padding: 5%;
+        width: 23.5rem;
       }
       
       .interestBox {
         margin-top: 40%;
+      }
+
+      .titleInter {
+          margin-top: 35%;
       }
 
       .imgInterest {
@@ -22,22 +27,27 @@
 @media (min-width: 341px) and (max-width: 600px) {
     .backgroundInterests {
         background-color: #fff;
-        height: 80vh;
+        height: 66vh;
+        width: 26.5rem;
         padding: 5%;
       }
       
       .interestBox {
-        margin-top: 30%;
+        margin-top: 40%;
+      }
+
+      .titleInter {
+          margin-top: 30%;
+      }
+
+      .imgInterest {
+        width: 6vh;
       }
       
       .subtitleInter {
         font-family: 'Scope One', serif;
-        font-size: 18px;
-      }
-      
-      .imgInterst {
-        width: 10%;
-      }
+        font-size: 12px;
+      } 
 }
 
 @media (min-width: 601px) and (max-width: 992px) {

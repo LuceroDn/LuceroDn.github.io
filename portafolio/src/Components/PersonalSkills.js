@@ -11,7 +11,7 @@ class PersonalSkills extends Component {
                     <div className="col">
 
                         <div>
-                            <h3 className="titlePages center-align">HABILIDADES PERSONALES</h3>
+                            <h3 className="titlePages titlePersonalS center-align">HABILIDADES PERSONALES</h3>
                         </div>
 
                         <div class="row center-xs lista">

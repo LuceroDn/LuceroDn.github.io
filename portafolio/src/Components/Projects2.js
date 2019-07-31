@@ -1,68 +1,73 @@
 import React, { Component } from 'react';
-import imgPokemon from './img/pokemon.png';
-import imgTicTac from './img/tictactoe.png';
+import imgPokemon from './img/pokemon2.jpg';
+import imgTicTac from './img/tictactoe3.jpg';
+import imgBurgerQ from "./img/burgerQ.jpg";
 import "./Style.css/Projects.css";
 
 class Projects extends Component {
     render() {
         return (
             <div className="container-fluid backgroundProjects">
-                <div className="row">
-                    <div className="col">
+                <div className="row center-xs">
+                    <div className="col-xs-10">
+                        
+                    <div>
+              <h2 className="titlePages titleProjects">PROYECTOS</h2>
+            </div>
+                   
+                <div className="container">
 
-                        <div>
-                            <h1 className="titlePages titleProjects">PROYECTOS</h1>
+                    <div className="card">
+                        <div className="img-box">
+                            <img className="imgProject" src={imgPokemon} alt="pokemon" />
                         </div>
-
-
-	<div class="row center-xs center-sm wrap">
-		<div class="col cardProject">
-			<div class="cardBody">
-				<div class="forward card1">
-                    <div className="imgBox">
-                <img class="imgPokemon " src={imgPokemon} alt="pokemon" />
-                    </div>
-                </div>
-				<div class="back backPokemon">
-                    <h1 className="titleCard">DATA LOVERS</h1>
-					<p className="textBack">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex velit beatae. Illum, suscipit, aspernatur!</p>
-				</div>
-			</div>
-		</div>
-		<div class="col cardProject">
-			<div class="cardBody">
-				<div class="forward card2">
-                    <div className="tictacBox">
-                <img class="imgTicTac" src={imgTicTac} alt="tictac" />
-                    </div>
-                </div>
-				<div class="back backTictac">
-                <h1 className="titleCard">TIC TAC TOE</h1>
-					<p className="textBack">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex velit beatae. Illum, suscipit, aspernatur!</p>
-				</div>
-			</div>
-		</div>
-		<div class="col cardProject">
-			<div class="cardBody">
-				<div class="forward card3">
-                    <div className="imgBox">
-                <img class="imgPokemon" src={imgPokemon} alt="pokemon" />
-                    </div>
-                </div>
-				<div class="back backBeatBox">
-                <h1 className="titleCard">BEATBOX</h1>
-					<p className="textBack">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex velit beatae. Illum, suscipit, aspernatur!</p>
-				</div>
-			</div>
-		</div>
-	</div>
-                       
+                        <div className="content">
+                            <h2 className="titleCard">Data Lovers<br></br><span className="subtitleCard">Front-End</span></h2>
+                            <p className="textCard">Se utilizo materialize, flexbox, vanilla js.</p>
+                        
+                        <ul>
+                            <li><a href="#">Demo</a></li>
+                            <li><a href="#">Github</a></li>
+                        </ul>
                         </div>
+                    </div>
 
+                    <div className="card">
+                        <div className="img-box">
+                            <img className="imgProject" src={imgTicTac} alt="tictac" />
+                        </div>
+                        <div className="content">
+                            <h2 className="titleCard">Data Lovers<br></br><span className="subtitleCard">Front-End</span></h2>
+                            <p className="textCard">Se utilizo materialize, flexbox, vanilla js.</p>
+                            <ul>
+                                <li><a href="#">Demo</a></li>
+                                <li><a href="#">Github</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div className="card">
+                        <div className="img-box">
+                            <img className="imgProject" src={imgBurgerQ} alt="bq" />
+                        </div>
+                        <div className="content">
+                            <h2 className="titleCard">Data Lovers<br></br><span className="subtitleCard">Front-End</span></h2>
+                            <p className="textCard">Se utilizo materialize, flexbox, vanilla js.</p>
+                        
+                        <ul>
+                            <li><a href="#">Demo</a></li>
+                            <li><a href="#">Github</a></li>
+                        </ul>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                )
-              }
-            }
-            
-export default Projects; 
+                </div>
+            </div>
+
+
+        )
+    }
+}
+
+export default Projects;
