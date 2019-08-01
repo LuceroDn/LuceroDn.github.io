@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import logo from "./img/logo.png";
-import "./Style.css/Presentation.css"
+import "./Style.css/Box.css"
 
 
 class Box extends Component {
