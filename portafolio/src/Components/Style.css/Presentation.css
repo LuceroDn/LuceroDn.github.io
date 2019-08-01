@@ -7,7 +7,7 @@
       }
       
       .buttonCV {
-        margin-top: 20%;  
+        margin-top: 6%;  
       }
 }
 
@@ -21,9 +21,7 @@
       }
       
       .buttonCV {
-        position: absolute;
-        top: 56%;
-        left: 30%;
+        margin-top: 3%;
       }      
 }
 
@@ -36,9 +34,8 @@
       }
       
       .buttonCV {
+        margin-top: 67%;
         position: absolute;
-        top: 46%;
-        left: 40%;
       }      
 }
 
@@ -53,8 +50,7 @@
             
       .buttonCV {
         position: absolute;
-        top: 46%;
-        left: 40%;
+       margin-top: 41%;
       }      
 }
 
@@ -69,14 +65,13 @@
       
       .buttonCV {
         position: absolute;
-        top: 46%;
-        left: 40%;
+        margin-top: 35%;
       }     
 }
 
 @media (min-width: 993px) {
     .background1 {
-        background-image: url("../img/fondo.png");
+        background-image: url("../img/fondogrande.jpg");
         background-repeat: no-repeat;
         height: 96vh;
         width: 78.5rem;
@@ -85,24 +80,22 @@
       
       .buttonCV {
         position: absolute;
-        top: 58%;
-        left: 44%;
+        margin-top: 31%;
       } 
 }
 
 @media (min-width: 1200px) {
     .background1 {
-        background-image: url("../img/fondo.png");
+        background-image: url("../img/fondogrande.jpg");
         background-repeat: no-repeat;
         height: 96vh;
-        width: 90.6rem;
+        width: 107rem;
       
       }
       
       .buttonCV {
         position: absolute;
-        top: 52%;
-        left: 44%;
+        margin-top: 26%;
       }        
 }
 
