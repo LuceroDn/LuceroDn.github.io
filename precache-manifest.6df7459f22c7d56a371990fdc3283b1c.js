@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a80502e87714d18d4975a0e641a59197",
+    "revision": "79dd37f6e7994ecd316f4e169301658f",
     "url": "/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/css/2.ad9eb4b5.chunk.css"
   },
   {
-    "revision": "4c5d29d7ae46dc0848bf",
-    "url": "/static/css/main.40d4cd66.chunk.css"
+    "revision": "bccddff658cf358cc475",
+    "url": "/static/css/main.3ccc3906.chunk.css"
   },
   {
     "revision": "af2f01f436e2dad54fe5",
     "url": "/static/js/2.b7720143.chunk.js"
   },
   {
-    "revision": "4c5d29d7ae46dc0848bf",
-    "url": "/static/js/main.23b0b69d.chunk.js"
+    "revision": "bccddff658cf358cc475",
+    "url": "/static/js/main.43f5cf01.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -34,10 +34,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "30b625880e958ed30bf519b3fbcbff38",
     "url": "/static/media/fondo.30b62588.png"
-  },
-  {
-    "revision": "11d52a254ab982ab7eff9845dad98ecc",
-    "url": "/static/media/fondogrande.11d52a25.jpg"
   },
   {
     "revision": "a873629b423b8c7a10c386663d058516",
