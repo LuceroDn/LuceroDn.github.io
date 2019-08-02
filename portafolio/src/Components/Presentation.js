@@ -9,10 +9,11 @@ class Presentation extends Component {
     
   render() {
     return (
-        <div className="background1">
+        <div className="parallax-container row">
+          <div className="col s12 background1">
             <NavBar />
             <Box />
-            
+          </div>
   
         </div>
         

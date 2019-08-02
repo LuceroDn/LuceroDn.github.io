@@ -27,7 +27,7 @@ componentDidMount() {
   </nav>
 
   <ul className="sidenav menuMobile" id="mobile-demo">
-    <li><a href="#about">Acerca de Mi</a></li>
+    <li><a href="badges.html">Acerca de Mi</a></li>
     <li><a href="badges.html">Habilidades Técnicas</a></li>
     <li><a href="collapsible.html">Habilidades Personales</a></li>
     <li><a href="mobile.html">Proyectos</a></li>

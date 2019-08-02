@@ -1,9 +1,13 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
   .personalSkills{
     background-color: #fff;
-    height: 78vh;
-    width: 23.5rem;
+    height: 70vh;
+    width: 24.2rem;
     padding: 5%;
+  }
+
+  .titlePersonalS {
+    margin-top: 38%;
   }
   
   .lista {
@@ -31,13 +35,12 @@
 @media (min-width: 341px) and (max-width: 600px) {
   .personalSkills{
     background-color: #fff;
-    height: 71vh;
+    height: 72vh;
     width: 26.5rem;
-    padding: 5%;
   }
 
   .titlePersonalS {
-    margin-top: 27%;
+    margin-top: 49%;
   }
   
   .lista {
@@ -64,8 +67,13 @@
 @media (min-width: 601px) and (max-width: 992px) {
   .personalSkills{
     background-color: #fff;
-    height: 74vh;
-    padding: 5%;
+    height: 90vh;
+    padding: 21%;
+    width: 68.5rem;
+  }
+
+  .titlePersonalS{
+    margin-top: -41%; 
   }
   
   .lista {
@@ -75,11 +83,11 @@
   .textoLista {
     margin-top: 10%;
     font-family: 'Scope One', serif;
-    font-size: 17px;
+    font-size: 13px;
   }
   
   .focoSkills {
-    width: 25%;
+    width: 21%;
     margin-top: 15%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -94,6 +102,7 @@
     background-color: #fff;
     height: 74vh;
     padding: 5%;
+    width: 26.5rem;
   }
   
   .lista {
@@ -103,11 +112,11 @@
   .textoLista {
     margin-top: 10%;
     font-family: 'Scope One', serif;
-    font-size: 17px;
+    font-size: 14px;
   }
   
   .focoSkills {
-    width: 25%;
+    width: 23%;
     margin-top: 15%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -131,11 +140,11 @@
   .textoLista {
     margin-top: 10%;
     font-family: 'Scope One', serif;
-    font-size: 17px;
+    font-size: 15px;
   }
   
   .focoSkills {
-    width: 25%;
+    width: 24%;
     margin-top: 15%;
     border-radius: 50%;
     -webkit-border-radius: 50%;

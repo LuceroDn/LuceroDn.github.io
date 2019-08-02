@@ -1,6 +1,6 @@
 @media (min-width: 5px) and (max-width: 340px) {
     .backgroundAbout{
-        width: 23.5rem;
+        width: 24.2rem;
       }
       
       .titlePages {
@@ -10,7 +10,10 @@
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: 30%;
+      }
+
+      .titleAbout {
+          margin-top: 34%;
       }
       
       .textAbout {
@@ -52,7 +55,10 @@
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: 23%;
+      }
+
+      .titleAbout {
+        margin-top: 26%;
       }
       
       .textAbout {
@@ -60,7 +66,7 @@
         font-size: 12px;
         display: flex;
         justify-content: center;
-        padding: 6%;
+        padding: 4%;
         margin-top: 10%;
       }
       
@@ -118,38 +124,85 @@
       }     
 } */
 
-@media (min-width: 601px) and (max-width: 992px) {
+@media (min-width: 601px) and (max-width: 749px) {
+    .backgroundAbout {
+        width: 68.5rem;
+      }
+      
+      .titlePages {
+        font-family: 'Italiana',serif;
+        font-size: 16px;
+        color: #604c24;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+      }
+
+      .titleAbout {
+        margin-top: 15%;
+      }
+      
+      .textAbout {
+        font-family: 'Scope One',serif;
+        font-size: 13px;
+        display: flex;
+        justify-content: center;
+        padding: 3%;
+        margin-top: 10%;
+      }
+      
+      .textAbout2 {
+        margin-top: -3%;
+        margin-bottom: 10%;
+        justify-content: center;
+      }
+      
+      .imgTravel {
+        width: 26%;
+        margin-bottom: 20%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+      }      
+}
+
+@media (min-width: 750px) and (max-width: 992px) {
     .backgroundAbout {
         width: 90%;
       }
       
       .titlePages {
         font-family: 'Italiana',serif;
-        font-size: 30px;
+        font-size: 16px;
         color: #604c24;
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: -13%;
+      }
+
+      .titleAbout {
+        margin-top: 15%;
       }
       
       .textAbout {
         font-family: 'Scope One',serif;
-        font-size: 17px;
+        font-size: 13px;
         display: flex;
         justify-content: center;
         padding: 3%;
-        margin-top: 12%;
+        margin-top: 10%;
       }
       
       .textAbout2 {
-        margin-top: -5%;
+        margin-top: -3%;
         margin-bottom: 10%;
         justify-content: center;
       }
       
       .imgTravel {
-        width: 34%;
+        width: 26%;
         margin-bottom: 20%;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -166,31 +219,34 @@
       
       .titlePages {
         font-family: 'Italiana',serif;
-        font-size: 30px;
+        font-size: 17px;
         color: #604c24;
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: 21%;
+      }
+
+      .titleAbout {
+        margin-top: 13%;
       }
       
       .textAbout {
         font-family: 'Scope One',serif;
-        font-size: 17px;
+        font-size: 14px;
         display: flex;
         justify-content: center;
         padding: 3%;
-        margin-top: 12%;
+        margin-top: 6%;
       }
       
       .textAbout2 {
         margin-top: -5%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         justify-content: center;
       }
       
       .imgTravel {
-        width: 34%;
+        width: 26%;
         margin-bottom: 20%;
         border-radius: 50%;
         -webkit-border-radius: 50%;
@@ -203,31 +259,34 @@
 
 @media (min-width: 1200px) { 
     .backgroundAbout {
-        width: 90%;
+   
       }
       
       .titlePages {
         font-family: 'Italiana',serif;
-        font-size: 30px;
+        font-size: 19px;
         color: #604c24;
         font-weight: bold;
         display: flex;
         justify-content: center;
-        margin-top: 21%;
+      }
+
+      .titleAbout {
+        margin-top: 14%;
       }
       
       .textAbout {
         font-family: 'Scope One',serif;
-        font-size: 17px;
+        font-size: 16px;
         display: flex;
         justify-content: center;
         padding: 3%;
-        margin-top: 12%;
+        margin-top: 8%;
       }
       
       .textAbout2 {
         margin-top: -5%;
-        margin-bottom: 10%;
+        margin-bottom: 5%;
         justify-content: center;
       }
       

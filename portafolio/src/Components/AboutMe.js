@@ -8,12 +8,12 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="container-fluid backgroundAbout">
-        <div className="row">
+        <div className="row center-xs">
           <div className="col">
 
             <div className="aboutBox center-xs">
             <div>
-              <h2 className="titlePages">ACERCA DE MI</h2>
+              <h2 className="titlePages titleAbout">ACERCA DE MI</h2>
             </div>
             <p className="textAbout">Hola, soy Lucero, soy desarrolladora web y administradora de empresas. Me gusta mucho viajar, leer y los animales.</p>
             <p className="textAbout textAbout2">Aquí podrás encontrar algunos proyectos en los que he trabajado en Laboratoria</p>

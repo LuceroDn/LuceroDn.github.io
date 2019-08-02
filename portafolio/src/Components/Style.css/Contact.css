@@ -1,6 +1,7 @@
 @media (min-width: 5px) and (max-width: 340px) {
-    .backgroundContact { 
-        height: 27rem;
+    /* .backgroundContact { 
+        height: 24.2rem;
+        width: 24.2;
         
         }
 
@@ -11,12 +12,12 @@
         .textContact {
           font-family: "Scope One", serif;
           font-size: 12px;
-          margin-top: 7%;
-          padding: 29px;
+          margin-top: -8%;
+          padding: 21px;
         }
         
         .textContactTop{
-          margin-top: -25%;
+          margin-top: -23%;
           font-weight: bold;
         }
         
@@ -37,12 +38,12 @@
 
         .github {
             width: 2rem;
-        }
+        } */
 
 }
 
 @media (min-width: 341px) and (max-width: 600px) {
-  .backgroundContact { 
+  /* .backgroundContact { 
     height: 23rem;
     
     }
@@ -80,7 +81,7 @@
 
     .github {
         width: 2rem;
-    }   
+    }    */
 }
 
 /* @media (min-width: 341px) and (max-width: 600px) and (orientation: landscape) {

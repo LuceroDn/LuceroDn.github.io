@@ -1,13 +1,13 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
     .backgroundProjects {
         background-color: #616362;
-        height: 133vh;
-        width: 23.5rem;
+        height: 113vh;
+        width: 24.2rem;
       }
       
       .titleProjects {
         color: #fff;
-        margin-top: 35%;
+        margin-top: 38%;
       }
 
       .container {
@@ -203,8 +203,8 @@
 @media (min-width: 341px) and (max-width: 600px) {
   .backgroundProjects {
     background-color: #616362;
-    height: 121vh;
-    width: 26.5rem;
+    height: 101vh;
+    width: 42.5rem;
   }
   
   .titleProjects {
@@ -353,12 +353,13 @@
 @media (min-width: 601px) and (max-width: 992px) {
   .backgroundProjects {
     background-color: #616362;
-    height: 123vh;
-    width: 23.5rem;
+    height: 146vh;
+    width: 68.5rem;
   }
   
   .titleProjects {
     color: #fff;
+    margin: 15%;
   }
 
   .container {
@@ -369,7 +370,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 440px;
     grid-gap: 40px;
-    margin-top: 15%;
+    margin-top: -3%;
   }
 
   .container .card {
@@ -398,8 +399,9 @@
 } 
 
   .card {
-    width: 15rem;
-    height: 10rem;
+    width: 29rem;
+    height: 19rem;
+    margin: 3rem 7rem 0;
   }
 
   .imgProject {
@@ -507,12 +509,13 @@
 @media (min-width: 993px) {
   .backgroundProjects {
     background-color: #616362;
-    height: 123vh;
-    width: 23.5rem;
+    height: 146vh;
+    width: 71.5rem;
   }
   
   .titleProjects {
     color: #fff;
+    margin: 15%;
   }
 
   .container {
@@ -523,7 +526,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 440px;
     grid-gap: 40px;
-    margin-top: 15%;
+    margin-top: -3%;
   }
 
   .container .card {
@@ -552,8 +555,9 @@
 } 
 
   .card {
-    width: 15rem;
-    height: 10rem;
+    width: 29rem;
+    height: 19rem;
+    margin: 3rem 7rem 0;
   }
 
   .imgProject {

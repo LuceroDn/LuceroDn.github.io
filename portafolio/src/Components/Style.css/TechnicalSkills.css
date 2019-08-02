@@ -3,9 +3,8 @@
     background-color: #d4f1e7;
     display: flex;
     justify-content: center;
-    height: 73vh;
-    
-    padding: -1%;
+    height: 68vh;
+    width: 24.2rem;
   }
 
   .technicalBox {
@@ -14,7 +13,7 @@
 
   .titleTech {
     margin-bottom: 30%; 
-    margin-top: 45%;
+    margin-top: 52%;
   }
   
   .devicon-html5-plain-wordmark {
@@ -48,7 +47,7 @@
     background-color: #d4f1e7;
     display: flex;
     justify-content: center;
-    height: 66vh;
+    height: 67vh;
     
     padding: -1%;
   }
@@ -59,7 +58,7 @@
 
   .titleTech {
     margin-bottom: 30%; 
-    margin-top: 45%;
+    margin-top: 50%;
   }
   
   .devicon-html5-plain-wordmark {
@@ -130,12 +129,12 @@
 } */
 
 @media (min-width: 601px) and (max-width: 992px) {
-  .technicalSkills {
+ .technicalSkills {
     background-color: #d4f1e7;
     display: flex;
     justify-content: center;
     height: 66vh;
-    
+    width: 68.5rem;
     padding: -1%;
   }
 
@@ -178,39 +177,42 @@
     background-color: #d4f1e7;
     display: flex;
     justify-content: center;
-    height: 93vh;
+    height: 76vh;
+    
+    padding: -1%;
   }
-  
+
   .technicalBox {
-    margin-top: 20%;
+    margin-top: 21%;
+  }
+
+  .titleTech {
+    margin-bottom: 30%; 
+    margin-top: 45%;
   }
   
-  .html {
-    width: 35%;
-    margin-bottom: 10%;
-  
+  .devicon-html5-plain-wordmark {
+    font-size: 4rem;
+  }
+
+  .devicon-css3-plain-wordmark {
+    font-size: 4rem;
   }
   
-  .css {
-    width: 24%;
+  .devicon-javascript-plain {
+    font-size: 3rem;
   }
   
-  .javascript {
-    width: 25%;
+  .devicon-bootstrap-plain-wordmark {
+    font-size: 3.5rem;  
   }
   
-  .bootstrap {
-    width: 26%;
-    margin-top: 1%;
+  .devicon-react-original-wordmark {
+    font-size: 4rem;
   }
   
-  .materialize {
-    width: 32%;
-    margin-top: 5%;
-  }
-  
-  .github {
-    width: 26%;
+  .devicon-github-plain-wordmark {
+    font-size: 4rem;
   }
 }
 
@@ -219,38 +221,41 @@
     background-color: #d4f1e7;
     display: flex;
     justify-content: center;
-    height: 93vh;
+    height: 80vh;
+    
+    padding: -1%;
   }
-  
+
   .technicalBox {
-    margin-top: 20%;
+    margin-top: 21%;
+  }
+
+  .titleTech {
+    margin-bottom: 30%; 
+    margin-top: 45%;
   }
   
-  .html {
-    width: 35%;
-    margin-bottom: 10%;
-  
+  .devicon-html5-plain-wordmark {
+    font-size: 4rem;
+  }
+
+  .devicon-css3-plain-wordmark {
+    font-size: 4rem;
   }
   
-  .css {
-    width: 24%;
+  .devicon-javascript-plain {
+    font-size: 3rem;
   }
   
-  .javascript {
-    width: 25%;
+  .devicon-bootstrap-plain-wordmark {
+    font-size: 3.5rem;  
   }
   
-  .bootstrap {
-    width: 26%;
-    margin-top: 1%;
+  .devicon-react-original-wordmark {
+    font-size: 4rem;
   }
   
-  .materialize {
-    width: 32%;
-    margin-top: 5%;
-  }
-  
-  .github {
-    width: 26%;
+  .devicon-github-plain-wordmark {
+    font-size: 4rem;
   }
 }

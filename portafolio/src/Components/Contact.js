@@ -16,7 +16,7 @@ class Contact extends Component {
                         </div>
                         
                 
-                        <p className="textContact center-align">¿Te gustaría que trabajemos juntos? ¿Tienes alguna duda o comentario?</p>
+                        {/* <p className="textContact center-align">¿Te gustaría que trabajemos juntos? ¿Tienes alguna duda o comentario?</p>
                         <p className="textContact textContactTop center-align">Escríbeme, con gusto te responderé.</p>
                         
 
@@ -35,7 +35,7 @@ class Contact extends Component {
                                 </div>
                     
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

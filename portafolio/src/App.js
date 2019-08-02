@@ -10,15 +10,16 @@ import Interests from "./Components/Interests";
 import Sentence from "./Components/Sentence";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-
   
 
 class App extends Component {
   render() {
     return (
-    <div>
+    <React.Fragment>
+      <div>
       <Presentation />
      <a name="about"></a>
+      </div>
      <AboutMe /> 
       <TechnicalSkills />
       <PersonalSkills />
@@ -27,7 +28,7 @@ class App extends Component {
       <Sentence />
       <Contact />
       <Footer />
-    </div>
+    </React.Fragment>
     )
   }
 }

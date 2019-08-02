@@ -1,17 +1,6 @@
-@media (min-width: 5px) and (max-width: 340px) {
+/* @media (min-width: 5px) and (max-width: 340px) { */
     nav {
-        background: rgba(0, 0, 0, 0.2) !important;
-      }
-        
-      .navPicture {
-        width: 29%;
-        margin-left: 12%;
-        margin-top: 11%;
-        border-radius: 50%;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        -o-border-radius: 50%;
+      background: rgba(0, 0, 0, 0.2) !important;
       }
       
       .menuMobile {
@@ -23,9 +12,9 @@
       .sidenav li>a{
         font-size: 12px;
       }
-}
+/* } */
 
-@media (min-width: 341px) and (max-width: 600px) {
+/* @media (min-width: 341px) and (max-width: 600px) {
     nav {
         background: rgba(0, 0, 0, 0.2) !important;
       }
@@ -119,4 +108,4 @@
         font-weight: bolder;
         font-size: 16px;
       }
-}
+} */

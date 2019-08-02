@@ -1,9 +1,9 @@
 @media (min-width: 5px) and (max-width: 340px) {
     .backgroundInterests {
         background-color: #fff;
-        height: 74vh;
+        height: 60vh;
         padding: 5%;
-        width: 23.5rem;
+        width: 24.2rem;
       }
       
       .interestBox {
@@ -11,11 +11,11 @@
       }
 
       .titleInter {
-          margin-top: 35%;
+          margin-top: 38%;
       }
 
       .imgInterest {
-        width: 6vh;
+        width: 5vh;
       }
       
       .subtitleInter {
