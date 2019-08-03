@@ -7,15 +7,15 @@ class PersonalSkills extends Component {
     render() {
         return (
             <div className="container-fluid personalSkills">
-                <div className="row center-xs">
+                <div className="row center">
                     <div className="col">
 
                         <div>
-                            <h3 className="titlePages titlePersonalS center-align">HABILIDADES PERSONALES</h3>
+                            <h3 className="titlePages titlePersonalS col s10 m12 l12 xl12 offset-s5 offset-m10 offset-l7 offset-xl10">HABILIDADES PERSONALES</h3>
                         </div>
 
-                        <div class="row center-xs lista">
-                            <div className="col">
+                        <div class="row lista">
+                            <div className="col s9 offset-s5">
                                 <ul className="center-align textoLista">
                                     <li>° Autoaprendizaje</li>
                                     <li>° Metodología Agile</li>

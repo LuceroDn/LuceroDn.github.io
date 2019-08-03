@@ -1,19 +1,19 @@
 @media (min-width: 5px) and (max-width: 340px) {
   .technicalSkills {
     background-color: #d4f1e7;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     height: 68vh;
     width: 24.5rem;
   }
 
   .technicalBox {
-    margin-top: 20%;
+    display: inline-block;
   }
 
   .titleTech {
-    margin-bottom: 30%; 
-    margin-top: 52%;
+    margin-bottom: 19%; 
+    margin-top: 25%;
   }
   
   .devicon-html5-plain-wordmark {
@@ -45,20 +45,19 @@
 @media (min-width: 341px) and (max-width: 600px) {
   .technicalSkills {
     background-color: #d4f1e7;
-    display: flex;
-    justify-content: center;
-    height: 67vh;
+    /* display: flex;
+    justify-content: center; */
+    height: 68vh;
     width: 30rem;
-    padding: -1%;
   }
 
   .technicalBox {
-    margin-top: 21%;
+    display: inline-block;
   }
 
   .titleTech {
-    margin-bottom: 30%; 
-    margin-top: 50%;
+    margin-bottom: 19%; 
+    margin-top: 20%;
   }
   
   .devicon-html5-plain-wordmark {
@@ -129,22 +128,22 @@
 } */
 
 @media (min-width: 601px) and (max-width: 992px) {
- .technicalSkills {
+  .technicalSkills {
     background-color: #d4f1e7;
-    display: flex;
-    justify-content: center;
-    height: 66vh;
+    /* display: flex;
+    justify-content: center; */
+    height: 68vh;
     width: 69rem;
-    padding: -1%;
   }
 
   .technicalBox {
-    margin-top: 21%;
+    display: inline-flex;
+    align-items: baseline;
   }
 
   .titleTech {
-    margin-bottom: 30%; 
-    margin-top: 45%;
+    margin-bottom: 19%; 
+    margin-top: 26%;
   }
   
   .devicon-html5-plain-wordmark {
@@ -175,20 +174,19 @@
 @media (min-width: 993px) {
   .technicalSkills {
     background-color: #d4f1e7;
-    display: flex;
-    justify-content: center;
-    height: 76vh;
-    
-    padding: -1%;
+    /* display: flex;
+    justify-content: center; */
+    height: 80vh;
   }
 
   .technicalBox {
-    margin-top: 21%;
+    display: inline-flex;
+    align-items: baseline;
   }
 
   .titleTech {
-    margin-bottom: 30%; 
-    margin-top: 45%;
+    margin-bottom: 19%; 
+    margin-top: 26%;
   }
   
   .devicon-html5-plain-wordmark {
@@ -219,20 +217,19 @@
 @media (min-width: 1200px) {
   .technicalSkills {
     background-color: #d4f1e7;
-    display: flex;
-    justify-content: center;
-    height: 80vh;
-    
-    padding: -1%;
+    /* display: flex;
+    justify-content: center; */
+    height: 54vh;
   }
 
   .technicalBox {
-    margin-top: 21%;
+    display: inline-flex;
+    align-items: baseline;
   }
 
   .titleTech {
-    margin-bottom: 30%; 
-    margin-top: 45%;
+    margin-bottom: 19%; 
+    margin-top: 26%;
   }
   
   .devicon-html5-plain-wordmark {
