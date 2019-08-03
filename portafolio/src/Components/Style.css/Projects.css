@@ -2,7 +2,7 @@
     .backgroundProjects {
         background-color: #616362;
         height: 113vh;
-        width: 24.2rem;
+        width: 24.5rem;
       }
       
       .titleProjects {
@@ -203,8 +203,8 @@
 @media (min-width: 341px) and (max-width: 600px) {
   .backgroundProjects {
     background-color: #616362;
-    height: 101vh;
-    width: 42.5rem;
+    height: 126vh;
+    width: 30rem;
   }
   
   .titleProjects {
@@ -354,7 +354,7 @@
   .backgroundProjects {
     background-color: #616362;
     height: 146vh;
-    width: 68.5rem;
+    width: 69rem;
   }
   
   .titleProjects {

@@ -1,12 +1,10 @@
 @media (min-width: 5px) and (max-width: 340px) {
-    /* .backgroundContact { 
-        height: 24.2rem;
-        width: 24.2;
-        
+    .backgroundContact { 
+        height: 21.5rem;
         }
 
         .contactTitle {
-          margin-top: 30%;
+          margin-top: 27%;
         }
         
         .textContact {
@@ -17,7 +15,7 @@
         }
         
         .textContactTop{
-          margin-top: -23%;
+          margin-top: -17%;
           font-weight: bold;
         }
         
@@ -25,7 +23,7 @@
           display: flex;
           align-items: baseline;
           margin-left: 11%; 
-          margin-top: -1%;
+          margin-top: 5%;
         }
         
         .linkedin {
@@ -38,13 +36,14 @@
 
         .github {
             width: 2rem;
-        } */
+        }
 
 }
 
 @media (min-width: 341px) and (max-width: 600px) {
-  /* .backgroundContact { 
+  .backgroundContact { 
     height: 23rem;
+    width: 30rem;
     
     }
 
@@ -81,7 +80,7 @@
 
     .github {
         width: 2rem;
-    }    */
+    }   
 }
 
 /* @media (min-width: 341px) and (max-width: 600px) and (orientation: landscape) {
@@ -114,6 +113,7 @@
 @media (min-width: 601px) and (max-width: 992px) {
     .backgroundContact {
         height: 53rem;
+        width: 69rem;
         
         }
         

@@ -1,5 +1,4 @@
     .box {
-        height: 8rem;
         margin-top: 15%; 
         background-color: #fff;
     -webkit-box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
@@ -7,56 +6,45 @@
     box-shadow: -22px 22px 18px -15px rgba(0,0,0,0.25);
       }
 
-      .logo {
-        width: 84%;
-        margin-top: 17%;
-      }
-      
-      .frontE {
-        font-family: 'Italian', serif;
-        font-size: 12px;
-        margin-top: 1%;
-      }
-
 
 @media only screen and (min-width: 5px) and (max-width: 340px){
     .box {
-        height: 6rem;
+        height: 8rem;
         margin-top: 32%;
       }
 
       .logo {
-        width: 86%;
-        margin-top: 17%;
+        width: 100%;
+        margin-top: 27%;
       }
-      
+
       .frontE {
-        font-family: 'Italian', serif;
-        font-size: 10px;
+        font-family: 'Scope One', serif;
+        font-size: 9px;
         margin-top: 1%;
       }
 }
 
-@media only screen and (min-width: 341px) and (max-width: 487px) {
+@media only screen and (min-width: 341px) and (max-width: 600px) {
     .box {
-
-        height: 8rem;
-        margin-top: 20%;
+      
+        height: 9rem;
+        margin-top: 21%;
       }
 
       .logo {
-        width: 86%;
-        margin-top: 13%;
+        width: 94%;
+        margin-top: 22%;
       }
-      
+
       .frontE {
-        font-family: 'Italian', serif;
-        font-size: 10px;
+        font-family: 'Scope One', serif;
+        font-size: 12px;
         margin-top: 1%;
       }
 }
 
-@media only screen and (min-width: 487px) and (max-width: 600px) {
+/* @media only screen and (min-width: 487px) and (max-width: 600px) {
     .box {
         height: 10rem;
         margin-top: 13%;
@@ -66,35 +54,27 @@
         width: 84%;
         margin-top: 15%;
       }
-      
-      .frontE {
-        font-family: 'Italian', serif;
-        font-size: 17px;
-        margin-top: 1%;
-      }
+} */
 
-}
-
-@media only screen and (min-width: 601px) and (max-width: 769px) {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
     .box {
-    
         height: 11rem;
-        margin-top: 11%;
+        margin-top: 14%;
       }
 
       .logo {
-        width: 84%;
-        margin-top: 14%;
+        width: 92%;
+        margin-top: 17%;
       }
-      
+
       .frontE {
-        font-family: 'Italian', serif;
-        font-size: 17px;
+        font-family: 'Scope One', serif;
+        font-size: 16px;
         margin-top: 1%;
       }
 }
 
-@media only screen and (min-width: 770px) and (max-width: 800px) {
+/*@media only screen and (min-width: 770px) and (max-width: 800px) {
     .box {
         
         height: 11rem;
@@ -104,12 +84,6 @@
       .logo {
         width: 84%;
         margin-top: 14%;
-      }
-      
-      .frontE {
-        font-family: 'Italian', serif;
-        font-size: 17px;
-        margin-top: 1%;
       }
 }
 
@@ -124,27 +98,21 @@
         width: 84%;
         margin-top: 11%;
       }
-      
-      .frontE {
-        font-family: 'Italian', serif;
-        font-size: 17px;
-        margin-top: 1%;
-      }
-}
+} */
 
 @media only screen and (min-width: 993px) {
     .box { 
-        height: 12rem;
-        margin-top: 11%;
+        height: 11rem;
+        margin-top: 12%;
       }
 
       .logo {
-        width: 83%;
-        margin-top: 13%;
+        width: 92%;
+        margin-top: 14%;
       }
-      
+
       .frontE {
-        font-family: 'Italian', serif;
+        font-family: 'Scope One', serif;
         font-size: 18px;
         margin-top: 1%;
       }
@@ -152,18 +120,18 @@
 
 @media (min-width: 1200px) {
     .box {
-        height: 13rem;
-        margin-top: 6%;
+        height: 15rem;
+        margin-top: 8%;
       }
 
       .logo {
-        width: 88%;
-        margin-top: 13%;
+        width: 93%;
+        margin-top: 14%;
       }
-      
+
       .frontE {
-        font-family: 'Italian', serif;
-        font-size: 21px;
+        font-family: 'Scope One', serif;
+        font-size: 25px;
         margin-top: 1%;
       }
-} 
+}  

@@ -16,10 +16,7 @@ class App extends Component {
   render() {
     return (
     <React.Fragment>
-      <div>
       <Presentation />
-     <a name="about"></a>
-      </div>
      <AboutMe /> 
       <TechnicalSkills />
       <PersonalSkills />

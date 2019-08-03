@@ -2,7 +2,7 @@
     .backgroundFooter {
         background-color: #616362;
         height: 4%;
-        width: 24.2rem;
+        width: 24.5rem;
       } 
       
       .textFooter {
@@ -16,8 +16,8 @@
 @media (min-width: 341px) and (max-width: 600px) {
     .backgroundFooter {
         background-color: #616362;
-        height: 4%;
-        width: 26.5rem;
+        height: 8rem;
+        width: 30rem;
       } 
       
       .textFooter {
@@ -59,6 +59,7 @@
     .backgroundFooter {
         background-color: #616362;
         height: 10rem;
+        width: 69rem;
       } 
       
       .textFooter {

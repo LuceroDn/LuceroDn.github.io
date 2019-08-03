@@ -1,6 +1,6 @@
 @media (min-width: 5px) and (max-width: 340px) {
     .backgroundAbout{
-        width: 24.2rem;
+        width: 24.5rem;
       }
       
       .titlePages {
@@ -45,7 +45,7 @@
 @media (min-width: 341px) and (max-width: 600px) {
     .backgroundAbout{
         height: 33rem;
-        width: 26.5rem;
+        width: 30rem;
       }
       
       .titlePages {
@@ -126,7 +126,7 @@
 
 @media (min-width: 601px) and (max-width: 749px) {
     .backgroundAbout {
-        width: 68.5rem;
+        width: 69rem;
       }
       
       .titlePages {

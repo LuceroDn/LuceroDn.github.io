@@ -7,17 +7,12 @@ class Box extends Component {
   render() {
     return (
    <div className="backgroundBox">
-     <div className="row center-xs">
-<div className="col-xs-7 box">
-<img className="logo center-xs middle-xs" src={logo} alt="logo" />
-<p className="frontE">FRONT-END DEVELOPER</p>
+     <div className="row center">
+<div className="col s6 m4 l4 xl4 offset-s3 offset-m4 offset-l4 offset-xl4 box">
+<img className="logo" src={logo} alt="logo" />
+<p className="frontE center-align">FRONT-END DEVELOPER</p>
 </div>
 
-<div className="row bottom-xs">
- <div className="col buttonCV">
-<a class="waves-effect waves-light btn #80cbc4 teal lighten-3">Descarga mi CV</a>
-</div>
-</div>
 
      </div>
    </div>

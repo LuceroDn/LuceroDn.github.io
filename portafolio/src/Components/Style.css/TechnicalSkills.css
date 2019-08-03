@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     height: 68vh;
-    width: 24.2rem;
+    width: 24.5rem;
   }
 
   .technicalBox {
@@ -48,7 +48,7 @@
     display: flex;
     justify-content: center;
     height: 67vh;
-    
+    width: 30rem;
     padding: -1%;
   }
 
@@ -134,7 +134,7 @@
     display: flex;
     justify-content: center;
     height: 66vh;
-    width: 68.5rem;
+    width: 69rem;
     padding: -1%;
   }
 
