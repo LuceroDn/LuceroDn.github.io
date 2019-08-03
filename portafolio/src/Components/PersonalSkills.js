@@ -11,12 +11,12 @@ class PersonalSkills extends Component {
                     <div className="col">
 
                         <div>
-                            <h3 className="titlePages titlePersonalS col s10 m12 l12 xl12 offset-s5 offset-m10 offset-l7 offset-xl10">HABILIDADES PERSONALES</h3>
+                            <h3 className="titlePages titlePersonalS center-align col s6 m12 l12 xl12 offset-s3 offset-m6 offset-l8 offset-xl10">HABILIDADES PERSONALES</h3>
                         </div>
 
-                        <div class="row lista">
-                            <div className="col s9 offset-s5">
-                                <ul className="center-align textoLista">
+                        <div class="row lista center">
+                            <div className="col s8 m10 l11 xl11 offset-s2 offset-m7 offset-l8 offset-xl10">
+                                <ul className=" textoLista">
                                     <li>° Autoaprendizaje</li>
                                     <li>° Metodología Agile</li>
                                     <li>° Adaptabilidad</li>
@@ -28,10 +28,10 @@ class PersonalSkills extends Component {
                             </div>
                         </div>
 
+                    <div className="col s8 m8 l8 xl8 offset-s2 offset-m8 offset-l10 offset-xl12">
+                        <img className="focoSkills" src={foco} alt="skills" />
                     </div>
 
-                    <div className="center-xs">
-                        <img className="focoSkills" src={foco} alt="skills" />
                     </div>
 
                 </div>

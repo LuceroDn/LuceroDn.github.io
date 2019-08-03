@@ -1,17 +1,17 @@
 @media only screen and (min-width: 5px) and (max-width: 340px) {
   .personalSkills{
     background-color: #fff;
-    height: 70vh;
-    width: 24.5rem;
+    height: 50vh;
+  
 
   }
 
   .titlePersonalS {
-    margin-top: 38%;
+    margin-top: 25%;
   }
   
   .lista {
-    margin-top: 20%;
+    margin-top: 10rem;
   }
   
   .textoLista {
@@ -22,7 +22,7 @@
   
   .focoSkills {
     width: 21%;
-    margin-top: 5%;
+    margin-top: 10%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -35,16 +35,17 @@
 @media (min-width: 341px) and (max-width: 600px) {
   .personalSkills{
     background-color: #fff;
-    height: 72vh;
+    height: 58vh;
     width: 30rem;
+
   }
 
   .titlePersonalS {
-    margin-top: 49%;
+    margin-top: 21%;
   }
   
   .lista {
-    margin-top: 20%;
+    margin-top: 9rem;
   }
   
   .textoLista {
@@ -55,40 +56,41 @@
   
   .focoSkills {
     width: 21%;
-    margin-top: 5%;
+    margin-top: 12%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-  }     
+  }
+     
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
   .personalSkills{
     background-color: #fff;
-    height: 90vh;
-    padding: 21%;
+    height: 71vh;
     width: 69rem;
+
   }
 
-  .titlePersonalS{
-    margin-top: -41%; 
+  .titlePersonalS {
+    margin-top: 30%;
   }
   
   .lista {
-    margin-top: 20%;
+    margin-top: 9rem;
   }
   
   .textoLista {
     margin-top: 10%;
     font-family: 'Scope One', serif;
-    font-size: 13px;
+    font-size: 12px;
   }
   
   .focoSkills {
     width: 21%;
-    margin-top: 15%;
+    margin-top: 12%;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -100,13 +102,16 @@
 @media (min-width: 993px) {
   .personalSkills{
     background-color: #fff;
-    height: 74vh;
-    padding: 5%;
-    width: 26.5rem;
+    height: 60vh;
+  
+  }
+
+  .titlePersonalS {
+    margin-top: 28%;
   }
   
   .lista {
-    margin-top: 20%;
+    margin-top: 42%;
   }
   
   .textoLista {

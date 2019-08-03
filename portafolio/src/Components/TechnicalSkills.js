@@ -9,7 +9,7 @@ class TechnicalSkills extends Component {
           <div className="col">
         
             <div>
-              <h3 className="titlePages center-align titleTech col s6 m12 l12 xl12 offset-s3 offset-m10 offset-l7 offset-xl10">HABILIDADES TÉCNICAS</h3>
+              <h3 className="titlePages center-align titleTech col s6 m12 l12 xl12 offset-s3 offset-m6 offset-l7 offset-xl10">HABILIDADES TÉCNICAS</h3>
             </div>
 
                <div className="technicalBox col m10 xl12 offset-m7 offset-xl10">

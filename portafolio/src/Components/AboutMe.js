@@ -13,7 +13,7 @@ class AboutMe extends Component {
 
             <div className="aboutBox">
             <div>
-              <h2 className="titlePages titleAbout col s6 m6 l6 xl6 offset-s3 offset-m3 offset-l3 offset-xl4">ACERCA DE MI</h2>
+              <h2 className="titlePages titleAbout col s6 m7}6 l6 xl6 offset-s3 offset-m3 offset-l3 offset-xl4">ACERCA DE MI</h2>
             </div>
 
             <div className="row center">
